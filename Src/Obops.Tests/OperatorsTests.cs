@@ -24,5 +24,13 @@
             Assert.AreEqual(-1.0, Operators.AddObject(1.0, -2.0));
             Assert.AreEqual(0.0, Operators.AddObject(0.0, 0.0));
         }
+
+        [TestMethod]
+        public void AddIntegerToDouble()
+        {
+            Assert.AreEqual(4.4, Operators.AddObject(1, 3.4));
+            Assert.AreEqual(-1.0, Operators.AddObject(1, -2.0));
+            Assert.AreEqual(0.0, Operators.AddObject(0, 0.0));
+        }
     }
 }
