@@ -1,0 +1,15 @@
+if Project then
+    message "Project"
+end if
+
+if Model then
+    message "Model"
+end if
+
+if Model.BinaryOperators then
+    message "BinaryOperators"
+end if
+
+for each BinaryOperator in Model.BinaryOperators
+    message BinaryOperator.Name
+end for

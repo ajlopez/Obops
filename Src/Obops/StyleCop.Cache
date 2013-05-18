@@ -9,18 +9,6 @@
     <milliseconds>906</milliseconds>
     <violations />
   </sourcecode>
-  <sourcecode name="Operators.cs" parser="Microsoft.StyleCop.CSharp.CsParser">
-    <settings>
-      <timestamp>05/18/2013 17:32:24</timestamp>
-      <milliseconds>470</milliseconds>
-    </settings>
-    <timestamp>05/18/2013 18:07:04</timestamp>
-    <milliseconds>983</milliseconds>
-    <violations />
-  </sourcecode>
-  <project key="-141994165">
-    <configuration>DEBUG;TRACE</configuration>
-  </project>
   <sourcecode name="IBinaryOperators.cs" parser="Microsoft.StyleCop.CSharp.CsParser">
     <settings>
       <timestamp>05/18/2013 17:32:24</timestamp>
@@ -35,5 +23,17 @@
         <warning>False</warning>
       </violation>
     </violations>
+  </sourcecode>
+  <project key="-141994165">
+    <configuration>DEBUG;TRACE</configuration>
+  </project>
+  <sourcecode name="Operators.cs" parser="Microsoft.StyleCop.CSharp.CsParser">
+    <settings>
+      <timestamp>05/18/2013 17:32:24</timestamp>
+      <milliseconds>470</milliseconds>
+    </settings>
+    <timestamp>05/18/2013 18:47:05</timestamp>
+    <milliseconds>957</milliseconds>
+    <violations />
   </sourcecode>
 </stylecopresultscache>
