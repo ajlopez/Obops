@@ -17,6 +17,8 @@
 
             if (right is int)
                 return (double)left + (int)right;
+            else if (right is long)
+                return (double)left + (long)right;
             else
                 return (double)left + (double)right;
         }

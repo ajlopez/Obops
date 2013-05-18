@@ -40,5 +40,13 @@
             Assert.AreEqual(-1.0, Operators.AddObject(-2.0, 1));
             Assert.AreEqual(0.0, Operators.AddObject(0.0, 0));
         }
+
+        [TestMethod]
+        public void AddDoubleToLong()
+        {
+            Assert.AreEqual(4.4, Operators.AddObject(3.4, (long)1));
+            Assert.AreEqual(-1.0, Operators.AddObject(-2.0, (long)1));
+            Assert.AreEqual(0.0, Operators.AddObject(0.0, (long)0));
+        }
     }
 }
