@@ -34,6 +34,15 @@
         }
 
         [TestMethod]
+        public void AddShortToLong()
+        {
+            Assert.AreEqual((long)3, Operators.AddObject((short)1, (long)2));
+            Assert.AreEqual((long)-1, Operators.AddObject((short)1, (long)-2));
+            Assert.AreEqual((long)0, Operators.AddObject((short)0, (long)0));
+            Assert.AreEqual(long.MaxValue, Operators.AddObject((short)0, long.MaxValue));
+        }
+
+        [TestMethod]
         public void AddIntegerToShort()
         {
             Assert.AreEqual(3, Operators.AddObject(1, (short)2));
