@@ -15,7 +15,10 @@
                 else
                     return (int)left + (double)right;
 
-            return (double)left + (double)right;
+            if (right is int)
+                return (double)left + (int)right;
+            else
+                return (double)left + (double)right;
         }
     }
 }
