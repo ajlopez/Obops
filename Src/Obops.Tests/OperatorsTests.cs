@@ -26,6 +26,22 @@
         }
 
         [TestMethod]
+        public void AddShortToInteger()
+        {
+            Assert.AreEqual(3, Operators.AddObject((short)1, 2));
+            Assert.AreEqual(-1, Operators.AddObject((short)1, -2));
+            Assert.AreEqual(0, Operators.AddObject((short)0, 0));
+        }
+
+        [TestMethod]
+        public void AddIntegerToShort()
+        {
+            Assert.AreEqual(3, Operators.AddObject(1, (short)2));
+            Assert.AreEqual(-1, Operators.AddObject(1, (short)-2));
+            Assert.AreEqual(0, Operators.AddObject(0, (short)0));
+        }
+
+        [TestMethod]
         public void AddDoubles()
         {
             Assert.AreEqual(4.6, Operators.AddObject(1.2, 3.4));
