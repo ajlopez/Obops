@@ -1,5 +1,14 @@
 <stylecopresultscache>
   <version>10</version>
+  <sourcecode name="AssemblyInfo.cs" parser="Microsoft.StyleCop.CSharp.CsParser">
+    <settings>
+      <timestamp>05/18/2013 17:33:45</timestamp>
+      <milliseconds>399</milliseconds>
+    </settings>
+    <timestamp>05/18/2013 07:48:15</timestamp>
+    <milliseconds>843</milliseconds>
+    <violations />
+  </sourcecode>
   <project key="-709728613">
     <configuration>DEBUG;TRACE</configuration>
   </project>
@@ -8,23 +17,8 @@
       <timestamp>05/18/2013 17:33:45</timestamp>
       <milliseconds>399</milliseconds>
     </settings>
-    <timestamp>05/18/2013 18:06:25</timestamp>
-    <milliseconds>340</milliseconds>
-    <violations>
-      <violation namespace="Microsoft.StyleCop.CSharp.OrderingRules" rule="UsingDirectivesMustBeOrderedAlphabeticallyByNamespace" ruleCheckId="SA1210">
-        <context>Using directives must be sorted alphabetically by the namespaces.</context>
-        <line>4</line>
-        <warning>False</warning>
-      </violation>
-    </violations>
-  </sourcecode>
-  <sourcecode name="AssemblyInfo.cs" parser="Microsoft.StyleCop.CSharp.CsParser">
-    <settings>
-      <timestamp>05/18/2013 17:33:45</timestamp>
-      <milliseconds>399</milliseconds>
-    </settings>
-    <timestamp>05/18/2013 07:48:15</timestamp>
-    <milliseconds>843</milliseconds>
+    <timestamp>05/18/2013 19:38:45</timestamp>
+    <milliseconds>204</milliseconds>
     <violations />
   </sourcecode>
 </stylecopresultscache>

@@ -23,7 +23,6 @@
             <CSharpName>short</CSharpName>
             <TypeName>Int16</TypeName>
             <Values>
-                <Value>0</Value>
                 <Value>1</Value>
                 <Value>2</Value>
             </Values>

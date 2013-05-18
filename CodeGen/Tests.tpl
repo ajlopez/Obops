@@ -21,7 +21,7 @@ namespace Obops.Tests
     for each value1 in Type1.Values
         for each value2 in Type2.Values
 #>
-            Assert.AreEqual((${Type1.CSharpName})${value1} ${BinaryOperator.Symbol} (${Type2.CSharpName})${value2}, Operators.${BinaryOperator.Name}((${Type1.CSharpName})${value1}, (${Type2.CSharpName})${value2}));
+            Assert.AreEqual((${Type1.CSharpName})${value1} ${BinaryOperator.Symbol} (${Type2.CSharpName})${value2}, Operators.${BinaryOperator.Name}Object((${Type1.CSharpName})${value1}, (${Type2.CSharpName})${value2}));
 <#
         end for
     end for

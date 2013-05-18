@@ -24,16 +24,16 @@
       </violation>
     </violations>
   </sourcecode>
-  <project key="-141994165">
-    <configuration>DEBUG;TRACE</configuration>
-  </project>
   <sourcecode name="Operators.cs" parser="Microsoft.StyleCop.CSharp.CsParser">
     <settings>
       <timestamp>05/18/2013 17:32:24</timestamp>
       <milliseconds>470</milliseconds>
     </settings>
-    <timestamp>05/18/2013 18:47:05</timestamp>
-    <milliseconds>957</milliseconds>
+    <timestamp>05/18/2013 19:39:57</timestamp>
+    <milliseconds>709</milliseconds>
     <violations />
   </sourcecode>
+  <project key="-141994165">
+    <configuration>DEBUG;TRACE</configuration>
+  </project>
 </stylecopresultscache>
