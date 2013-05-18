@@ -1,9 +1,9 @@
 ﻿namespace Obops.Tests
 {
     using System;
-    using System.Text;
     using System.Collections.Generic;
     using System.Linq;
+    using System.Text;
     using Microsoft.VisualStudio.TestTools.UnitTesting;
 
     [TestClass]
@@ -23,6 +23,15 @@
             Assert.AreEqual(4.6, Operators.AddObject(1.2, 3.4));
             Assert.AreEqual(-1.0, Operators.AddObject(1.0, -2.0));
             Assert.AreEqual(0.0, Operators.AddObject(0.0, 0.0));
+        }
+
+        [TestMethod]
+        public void AddIntegerToLong()
+        {
+            Assert.AreEqual((long)3, Operators.AddObject(1, (long)2));
+            Assert.AreEqual((long)-1, Operators.AddObject(1, (long)-2));
+            Assert.AreEqual((long)0, Operators.AddObject(0, (long)0));
+            Assert.AreEqual(long.MaxValue, Operators.AddObject(0, (long)long.MaxValue));
         }
 
         [TestMethod]

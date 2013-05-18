@@ -7,11 +7,12 @@
 
     public static class Operators
     {
-        private static Func<object, object, object> [,]addops = new Func<object, object, object>[20, 20];
+        private static Func<object, object, object>[,]addops = new Func<object, object, object>[20, 20];
 
         static Operators()
         {
             addops[(int)TypeCode.Int32, (int)TypeCode.Int32] = (left, right) => (int)left + (int)right;
+            addops[(int)TypeCode.Int32, (int)TypeCode.Int64] = (left, right) => (int)left + (long)right;
             addops[(int)TypeCode.Int32, (int)TypeCode.Double] = (left, right) => (int)left + (double)right;
             addops[(int)TypeCode.Double, (int)TypeCode.Int32] = (left, right) => (double)left + (int)right;
             addops[(int)TypeCode.Double, (int)TypeCode.Int64] = (left, right) => (double)left + (long)right;
