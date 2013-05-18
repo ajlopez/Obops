@@ -9,7 +9,10 @@
     {
         public static object AddObject(object left, object right)
         {
-            return (int)left + (int)right;
+            if (left is int)
+                return (int)left + (int)right;
+
+            return (double)left + (double)right;
         }
     }
 }
