@@ -20,3 +20,13 @@ object Subtract(object a, object b);
 // ...
 ```
 
+## References
+
+- [Operator '!=' cannot be applied to operands of type 'T' and 'T'](http://stackoverflow.com/questions/8982645/operator-cannot-be-applied-to-operands-of-type-t-and-t)
+- [Operator '+' cannot be applied to operands of type 'T' and 'T' ](http://social.msdn.microsoft.com/forums/en-US/csharplanguage/thread/6317290d-bbfb-46f6-812b-7f4252ce3f27/)
+- [Creating a Math library using Generics in C#](http://stackoverflow.com/questions/63694/creating-a-math-library-using-generics-in-c-sharp)
+- [How to Implement Generic Method to do Math calculations on different value types](http://stackoverflow.com/questions/814202/how-to-implement-generic-method-to-do-math-calculations-on-different-value-types)
+- [Generic math function](http://social.msdn.microsoft.com/Forums/en-US/csharplanguage/thread/9787b8bb-1537-404b-af76-e1432f7fbfe4)
+- [Generics Algorithms](http://blogs.msdn.com/b/ericgu/archive/2003/11/14/52852.aspx)
+- [Using generics for calculations](http://www.codeproject.com/Articles/8531/Using-generics-for-calculations)
+
