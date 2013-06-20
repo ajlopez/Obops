@@ -30,10 +30,10 @@ namespace Obops
     end for
 #>
         }
-
 <#
     for each BinaryOperator in Model.BinaryOperators
 #>
+
         public object ${BinaryOperator.Name}Object(object left, object right)
         {
             if (left is IConvertible && right is IConvertible)
@@ -43,7 +43,6 @@ namespace Obops
 
             throw new NotImplementedException();
         }
-
 <#
     end for
 #>

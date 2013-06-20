@@ -15,7 +15,8 @@ namespace Obops.Tests
         public void Setup()
         {
             this.operators = new Operators();
-        }
+        }        
+
         [TestMethod]
         public void AddShortShort()
         {
@@ -23,8 +24,8 @@ namespace Obops.Tests
             Assert.AreEqual((short)1 + (short)2, this.operators.AddObject((short)1, (short)2));
             Assert.AreEqual((short)2 + (short)1, this.operators.AddObject((short)2, (short)1));
             Assert.AreEqual((short)2 + (short)2, this.operators.AddObject((short)2, (short)2));
-        }
-        
+        }        
+
         [TestMethod]
         public void AddShortInteger()
         {
@@ -32,8 +33,8 @@ namespace Obops.Tests
             Assert.AreEqual((short)1 + (int)2, this.operators.AddObject((short)1, (int)2));
             Assert.AreEqual((short)2 + (int)1, this.operators.AddObject((short)2, (int)1));
             Assert.AreEqual((short)2 + (int)2, this.operators.AddObject((short)2, (int)2));
-        }
-        
+        }        
+
         [TestMethod]
         public void AddShortLong()
         {
@@ -41,8 +42,8 @@ namespace Obops.Tests
             Assert.AreEqual((short)1 + (long)2, this.operators.AddObject((short)1, (long)2));
             Assert.AreEqual((short)2 + (long)1, this.operators.AddObject((short)2, (long)1));
             Assert.AreEqual((short)2 + (long)2, this.operators.AddObject((short)2, (long)2));
-        }
-        
+        }        
+
         [TestMethod]
         public void AddShortFloat()
         {
@@ -50,8 +51,8 @@ namespace Obops.Tests
             Assert.AreEqual((short)1 + (float)2.3, this.operators.AddObject((short)1, (float)2.3));
             Assert.AreEqual((short)2 + (float)1.2, this.operators.AddObject((short)2, (float)1.2));
             Assert.AreEqual((short)2 + (float)2.3, this.operators.AddObject((short)2, (float)2.3));
-        }
-        
+        }        
+
         [TestMethod]
         public void AddShortDouble()
         {
@@ -59,8 +60,8 @@ namespace Obops.Tests
             Assert.AreEqual((short)1 + (double)2.3, this.operators.AddObject((short)1, (double)2.3));
             Assert.AreEqual((short)2 + (double)1.2, this.operators.AddObject((short)2, (double)1.2));
             Assert.AreEqual((short)2 + (double)2.3, this.operators.AddObject((short)2, (double)2.3));
-        }
-        
+        }        
+
         [TestMethod]
         public void AddIntegerShort()
         {
@@ -68,8 +69,8 @@ namespace Obops.Tests
             Assert.AreEqual((int)1 + (short)2, this.operators.AddObject((int)1, (short)2));
             Assert.AreEqual((int)2 + (short)1, this.operators.AddObject((int)2, (short)1));
             Assert.AreEqual((int)2 + (short)2, this.operators.AddObject((int)2, (short)2));
-        }
-        
+        }        
+
         [TestMethod]
         public void AddIntegerInteger()
         {
@@ -77,8 +78,8 @@ namespace Obops.Tests
             Assert.AreEqual((int)1 + (int)2, this.operators.AddObject((int)1, (int)2));
             Assert.AreEqual((int)2 + (int)1, this.operators.AddObject((int)2, (int)1));
             Assert.AreEqual((int)2 + (int)2, this.operators.AddObject((int)2, (int)2));
-        }
-        
+        }        
+
         [TestMethod]
         public void AddIntegerLong()
         {
@@ -86,8 +87,8 @@ namespace Obops.Tests
             Assert.AreEqual((int)1 + (long)2, this.operators.AddObject((int)1, (long)2));
             Assert.AreEqual((int)2 + (long)1, this.operators.AddObject((int)2, (long)1));
             Assert.AreEqual((int)2 + (long)2, this.operators.AddObject((int)2, (long)2));
-        }
-        
+        }        
+
         [TestMethod]
         public void AddIntegerFloat()
         {
@@ -95,8 +96,8 @@ namespace Obops.Tests
             Assert.AreEqual((int)1 + (float)2.3, this.operators.AddObject((int)1, (float)2.3));
             Assert.AreEqual((int)2 + (float)1.2, this.operators.AddObject((int)2, (float)1.2));
             Assert.AreEqual((int)2 + (float)2.3, this.operators.AddObject((int)2, (float)2.3));
-        }
-        
+        }        
+
         [TestMethod]
         public void AddIntegerDouble()
         {
@@ -104,8 +105,8 @@ namespace Obops.Tests
             Assert.AreEqual((int)1 + (double)2.3, this.operators.AddObject((int)1, (double)2.3));
             Assert.AreEqual((int)2 + (double)1.2, this.operators.AddObject((int)2, (double)1.2));
             Assert.AreEqual((int)2 + (double)2.3, this.operators.AddObject((int)2, (double)2.3));
-        }
-        
+        }        
+
         [TestMethod]
         public void AddLongShort()
         {
@@ -113,8 +114,8 @@ namespace Obops.Tests
             Assert.AreEqual((long)1 + (short)2, this.operators.AddObject((long)1, (short)2));
             Assert.AreEqual((long)2 + (short)1, this.operators.AddObject((long)2, (short)1));
             Assert.AreEqual((long)2 + (short)2, this.operators.AddObject((long)2, (short)2));
-        }
-        
+        }        
+
         [TestMethod]
         public void AddLongInteger()
         {
@@ -122,8 +123,8 @@ namespace Obops.Tests
             Assert.AreEqual((long)1 + (int)2, this.operators.AddObject((long)1, (int)2));
             Assert.AreEqual((long)2 + (int)1, this.operators.AddObject((long)2, (int)1));
             Assert.AreEqual((long)2 + (int)2, this.operators.AddObject((long)2, (int)2));
-        }
-        
+        }        
+
         [TestMethod]
         public void AddLongLong()
         {
@@ -131,8 +132,8 @@ namespace Obops.Tests
             Assert.AreEqual((long)1 + (long)2, this.operators.AddObject((long)1, (long)2));
             Assert.AreEqual((long)2 + (long)1, this.operators.AddObject((long)2, (long)1));
             Assert.AreEqual((long)2 + (long)2, this.operators.AddObject((long)2, (long)2));
-        }
-        
+        }        
+
         [TestMethod]
         public void AddLongFloat()
         {
@@ -140,8 +141,8 @@ namespace Obops.Tests
             Assert.AreEqual((long)1 + (float)2.3, this.operators.AddObject((long)1, (float)2.3));
             Assert.AreEqual((long)2 + (float)1.2, this.operators.AddObject((long)2, (float)1.2));
             Assert.AreEqual((long)2 + (float)2.3, this.operators.AddObject((long)2, (float)2.3));
-        }
-        
+        }        
+
         [TestMethod]
         public void AddLongDouble()
         {
@@ -149,8 +150,8 @@ namespace Obops.Tests
             Assert.AreEqual((long)1 + (double)2.3, this.operators.AddObject((long)1, (double)2.3));
             Assert.AreEqual((long)2 + (double)1.2, this.operators.AddObject((long)2, (double)1.2));
             Assert.AreEqual((long)2 + (double)2.3, this.operators.AddObject((long)2, (double)2.3));
-        }
-        
+        }        
+
         [TestMethod]
         public void AddFloatShort()
         {
@@ -158,8 +159,8 @@ namespace Obops.Tests
             Assert.AreEqual((float)1.2 + (short)2, this.operators.AddObject((float)1.2, (short)2));
             Assert.AreEqual((float)2.3 + (short)1, this.operators.AddObject((float)2.3, (short)1));
             Assert.AreEqual((float)2.3 + (short)2, this.operators.AddObject((float)2.3, (short)2));
-        }
-        
+        }        
+
         [TestMethod]
         public void AddFloatInteger()
         {
@@ -167,8 +168,8 @@ namespace Obops.Tests
             Assert.AreEqual((float)1.2 + (int)2, this.operators.AddObject((float)1.2, (int)2));
             Assert.AreEqual((float)2.3 + (int)1, this.operators.AddObject((float)2.3, (int)1));
             Assert.AreEqual((float)2.3 + (int)2, this.operators.AddObject((float)2.3, (int)2));
-        }
-        
+        }        
+
         [TestMethod]
         public void AddFloatLong()
         {
@@ -176,8 +177,8 @@ namespace Obops.Tests
             Assert.AreEqual((float)1.2 + (long)2, this.operators.AddObject((float)1.2, (long)2));
             Assert.AreEqual((float)2.3 + (long)1, this.operators.AddObject((float)2.3, (long)1));
             Assert.AreEqual((float)2.3 + (long)2, this.operators.AddObject((float)2.3, (long)2));
-        }
-        
+        }        
+
         [TestMethod]
         public void AddFloatFloat()
         {
@@ -185,8 +186,8 @@ namespace Obops.Tests
             Assert.AreEqual((float)1.2 + (float)2.3, this.operators.AddObject((float)1.2, (float)2.3));
             Assert.AreEqual((float)2.3 + (float)1.2, this.operators.AddObject((float)2.3, (float)1.2));
             Assert.AreEqual((float)2.3 + (float)2.3, this.operators.AddObject((float)2.3, (float)2.3));
-        }
-        
+        }        
+
         [TestMethod]
         public void AddFloatDouble()
         {
@@ -194,8 +195,8 @@ namespace Obops.Tests
             Assert.AreEqual((float)1.2 + (double)2.3, this.operators.AddObject((float)1.2, (double)2.3));
             Assert.AreEqual((float)2.3 + (double)1.2, this.operators.AddObject((float)2.3, (double)1.2));
             Assert.AreEqual((float)2.3 + (double)2.3, this.operators.AddObject((float)2.3, (double)2.3));
-        }
-        
+        }        
+
         [TestMethod]
         public void AddDoubleShort()
         {
@@ -203,8 +204,8 @@ namespace Obops.Tests
             Assert.AreEqual((double)1.2 + (short)2, this.operators.AddObject((double)1.2, (short)2));
             Assert.AreEqual((double)2.3 + (short)1, this.operators.AddObject((double)2.3, (short)1));
             Assert.AreEqual((double)2.3 + (short)2, this.operators.AddObject((double)2.3, (short)2));
-        }
-        
+        }        
+
         [TestMethod]
         public void AddDoubleInteger()
         {
@@ -212,8 +213,8 @@ namespace Obops.Tests
             Assert.AreEqual((double)1.2 + (int)2, this.operators.AddObject((double)1.2, (int)2));
             Assert.AreEqual((double)2.3 + (int)1, this.operators.AddObject((double)2.3, (int)1));
             Assert.AreEqual((double)2.3 + (int)2, this.operators.AddObject((double)2.3, (int)2));
-        }
-        
+        }        
+
         [TestMethod]
         public void AddDoubleLong()
         {
@@ -221,8 +222,8 @@ namespace Obops.Tests
             Assert.AreEqual((double)1.2 + (long)2, this.operators.AddObject((double)1.2, (long)2));
             Assert.AreEqual((double)2.3 + (long)1, this.operators.AddObject((double)2.3, (long)1));
             Assert.AreEqual((double)2.3 + (long)2, this.operators.AddObject((double)2.3, (long)2));
-        }
-        
+        }        
+
         [TestMethod]
         public void AddDoubleFloat()
         {
@@ -230,8 +231,8 @@ namespace Obops.Tests
             Assert.AreEqual((double)1.2 + (float)2.3, this.operators.AddObject((double)1.2, (float)2.3));
             Assert.AreEqual((double)2.3 + (float)1.2, this.operators.AddObject((double)2.3, (float)1.2));
             Assert.AreEqual((double)2.3 + (float)2.3, this.operators.AddObject((double)2.3, (float)2.3));
-        }
-        
+        }        
+
         [TestMethod]
         public void AddDoubleDouble()
         {
@@ -239,8 +240,8 @@ namespace Obops.Tests
             Assert.AreEqual((double)1.2 + (double)2.3, this.operators.AddObject((double)1.2, (double)2.3));
             Assert.AreEqual((double)2.3 + (double)1.2, this.operators.AddObject((double)2.3, (double)1.2));
             Assert.AreEqual((double)2.3 + (double)2.3, this.operators.AddObject((double)2.3, (double)2.3));
-        }
-        
+        }        
+
         [TestMethod]
         public void SubtractShortShort()
         {
@@ -248,8 +249,8 @@ namespace Obops.Tests
             Assert.AreEqual((short)1 - (short)2, this.operators.SubtractObject((short)1, (short)2));
             Assert.AreEqual((short)2 - (short)1, this.operators.SubtractObject((short)2, (short)1));
             Assert.AreEqual((short)2 - (short)2, this.operators.SubtractObject((short)2, (short)2));
-        }
-        
+        }        
+
         [TestMethod]
         public void SubtractShortInteger()
         {
@@ -257,8 +258,8 @@ namespace Obops.Tests
             Assert.AreEqual((short)1 - (int)2, this.operators.SubtractObject((short)1, (int)2));
             Assert.AreEqual((short)2 - (int)1, this.operators.SubtractObject((short)2, (int)1));
             Assert.AreEqual((short)2 - (int)2, this.operators.SubtractObject((short)2, (int)2));
-        }
-        
+        }        
+
         [TestMethod]
         public void SubtractShortLong()
         {
@@ -266,8 +267,8 @@ namespace Obops.Tests
             Assert.AreEqual((short)1 - (long)2, this.operators.SubtractObject((short)1, (long)2));
             Assert.AreEqual((short)2 - (long)1, this.operators.SubtractObject((short)2, (long)1));
             Assert.AreEqual((short)2 - (long)2, this.operators.SubtractObject((short)2, (long)2));
-        }
-        
+        }        
+
         [TestMethod]
         public void SubtractShortFloat()
         {
@@ -275,8 +276,8 @@ namespace Obops.Tests
             Assert.AreEqual((short)1 - (float)2.3, this.operators.SubtractObject((short)1, (float)2.3));
             Assert.AreEqual((short)2 - (float)1.2, this.operators.SubtractObject((short)2, (float)1.2));
             Assert.AreEqual((short)2 - (float)2.3, this.operators.SubtractObject((short)2, (float)2.3));
-        }
-        
+        }        
+
         [TestMethod]
         public void SubtractShortDouble()
         {
@@ -284,8 +285,8 @@ namespace Obops.Tests
             Assert.AreEqual((short)1 - (double)2.3, this.operators.SubtractObject((short)1, (double)2.3));
             Assert.AreEqual((short)2 - (double)1.2, this.operators.SubtractObject((short)2, (double)1.2));
             Assert.AreEqual((short)2 - (double)2.3, this.operators.SubtractObject((short)2, (double)2.3));
-        }
-        
+        }        
+
         [TestMethod]
         public void SubtractIntegerShort()
         {
@@ -293,8 +294,8 @@ namespace Obops.Tests
             Assert.AreEqual((int)1 - (short)2, this.operators.SubtractObject((int)1, (short)2));
             Assert.AreEqual((int)2 - (short)1, this.operators.SubtractObject((int)2, (short)1));
             Assert.AreEqual((int)2 - (short)2, this.operators.SubtractObject((int)2, (short)2));
-        }
-        
+        }        
+
         [TestMethod]
         public void SubtractIntegerInteger()
         {
@@ -302,8 +303,8 @@ namespace Obops.Tests
             Assert.AreEqual((int)1 - (int)2, this.operators.SubtractObject((int)1, (int)2));
             Assert.AreEqual((int)2 - (int)1, this.operators.SubtractObject((int)2, (int)1));
             Assert.AreEqual((int)2 - (int)2, this.operators.SubtractObject((int)2, (int)2));
-        }
-        
+        }        
+
         [TestMethod]
         public void SubtractIntegerLong()
         {
@@ -311,8 +312,8 @@ namespace Obops.Tests
             Assert.AreEqual((int)1 - (long)2, this.operators.SubtractObject((int)1, (long)2));
             Assert.AreEqual((int)2 - (long)1, this.operators.SubtractObject((int)2, (long)1));
             Assert.AreEqual((int)2 - (long)2, this.operators.SubtractObject((int)2, (long)2));
-        }
-        
+        }        
+
         [TestMethod]
         public void SubtractIntegerFloat()
         {
@@ -320,8 +321,8 @@ namespace Obops.Tests
             Assert.AreEqual((int)1 - (float)2.3, this.operators.SubtractObject((int)1, (float)2.3));
             Assert.AreEqual((int)2 - (float)1.2, this.operators.SubtractObject((int)2, (float)1.2));
             Assert.AreEqual((int)2 - (float)2.3, this.operators.SubtractObject((int)2, (float)2.3));
-        }
-        
+        }        
+
         [TestMethod]
         public void SubtractIntegerDouble()
         {
@@ -329,8 +330,8 @@ namespace Obops.Tests
             Assert.AreEqual((int)1 - (double)2.3, this.operators.SubtractObject((int)1, (double)2.3));
             Assert.AreEqual((int)2 - (double)1.2, this.operators.SubtractObject((int)2, (double)1.2));
             Assert.AreEqual((int)2 - (double)2.3, this.operators.SubtractObject((int)2, (double)2.3));
-        }
-        
+        }        
+
         [TestMethod]
         public void SubtractLongShort()
         {
@@ -338,8 +339,8 @@ namespace Obops.Tests
             Assert.AreEqual((long)1 - (short)2, this.operators.SubtractObject((long)1, (short)2));
             Assert.AreEqual((long)2 - (short)1, this.operators.SubtractObject((long)2, (short)1));
             Assert.AreEqual((long)2 - (short)2, this.operators.SubtractObject((long)2, (short)2));
-        }
-        
+        }        
+
         [TestMethod]
         public void SubtractLongInteger()
         {
@@ -347,8 +348,8 @@ namespace Obops.Tests
             Assert.AreEqual((long)1 - (int)2, this.operators.SubtractObject((long)1, (int)2));
             Assert.AreEqual((long)2 - (int)1, this.operators.SubtractObject((long)2, (int)1));
             Assert.AreEqual((long)2 - (int)2, this.operators.SubtractObject((long)2, (int)2));
-        }
-        
+        }        
+
         [TestMethod]
         public void SubtractLongLong()
         {
@@ -356,8 +357,8 @@ namespace Obops.Tests
             Assert.AreEqual((long)1 - (long)2, this.operators.SubtractObject((long)1, (long)2));
             Assert.AreEqual((long)2 - (long)1, this.operators.SubtractObject((long)2, (long)1));
             Assert.AreEqual((long)2 - (long)2, this.operators.SubtractObject((long)2, (long)2));
-        }
-        
+        }        
+
         [TestMethod]
         public void SubtractLongFloat()
         {
@@ -365,8 +366,8 @@ namespace Obops.Tests
             Assert.AreEqual((long)1 - (float)2.3, this.operators.SubtractObject((long)1, (float)2.3));
             Assert.AreEqual((long)2 - (float)1.2, this.operators.SubtractObject((long)2, (float)1.2));
             Assert.AreEqual((long)2 - (float)2.3, this.operators.SubtractObject((long)2, (float)2.3));
-        }
-        
+        }        
+
         [TestMethod]
         public void SubtractLongDouble()
         {
@@ -374,8 +375,8 @@ namespace Obops.Tests
             Assert.AreEqual((long)1 - (double)2.3, this.operators.SubtractObject((long)1, (double)2.3));
             Assert.AreEqual((long)2 - (double)1.2, this.operators.SubtractObject((long)2, (double)1.2));
             Assert.AreEqual((long)2 - (double)2.3, this.operators.SubtractObject((long)2, (double)2.3));
-        }
-        
+        }        
+
         [TestMethod]
         public void SubtractFloatShort()
         {
@@ -383,8 +384,8 @@ namespace Obops.Tests
             Assert.AreEqual((float)1.2 - (short)2, this.operators.SubtractObject((float)1.2, (short)2));
             Assert.AreEqual((float)2.3 - (short)1, this.operators.SubtractObject((float)2.3, (short)1));
             Assert.AreEqual((float)2.3 - (short)2, this.operators.SubtractObject((float)2.3, (short)2));
-        }
-        
+        }        
+
         [TestMethod]
         public void SubtractFloatInteger()
         {
@@ -392,8 +393,8 @@ namespace Obops.Tests
             Assert.AreEqual((float)1.2 - (int)2, this.operators.SubtractObject((float)1.2, (int)2));
             Assert.AreEqual((float)2.3 - (int)1, this.operators.SubtractObject((float)2.3, (int)1));
             Assert.AreEqual((float)2.3 - (int)2, this.operators.SubtractObject((float)2.3, (int)2));
-        }
-        
+        }        
+
         [TestMethod]
         public void SubtractFloatLong()
         {
@@ -401,8 +402,8 @@ namespace Obops.Tests
             Assert.AreEqual((float)1.2 - (long)2, this.operators.SubtractObject((float)1.2, (long)2));
             Assert.AreEqual((float)2.3 - (long)1, this.operators.SubtractObject((float)2.3, (long)1));
             Assert.AreEqual((float)2.3 - (long)2, this.operators.SubtractObject((float)2.3, (long)2));
-        }
-        
+        }        
+
         [TestMethod]
         public void SubtractFloatFloat()
         {
@@ -410,8 +411,8 @@ namespace Obops.Tests
             Assert.AreEqual((float)1.2 - (float)2.3, this.operators.SubtractObject((float)1.2, (float)2.3));
             Assert.AreEqual((float)2.3 - (float)1.2, this.operators.SubtractObject((float)2.3, (float)1.2));
             Assert.AreEqual((float)2.3 - (float)2.3, this.operators.SubtractObject((float)2.3, (float)2.3));
-        }
-        
+        }        
+
         [TestMethod]
         public void SubtractFloatDouble()
         {
@@ -419,8 +420,8 @@ namespace Obops.Tests
             Assert.AreEqual((float)1.2 - (double)2.3, this.operators.SubtractObject((float)1.2, (double)2.3));
             Assert.AreEqual((float)2.3 - (double)1.2, this.operators.SubtractObject((float)2.3, (double)1.2));
             Assert.AreEqual((float)2.3 - (double)2.3, this.operators.SubtractObject((float)2.3, (double)2.3));
-        }
-        
+        }        
+
         [TestMethod]
         public void SubtractDoubleShort()
         {
@@ -428,8 +429,8 @@ namespace Obops.Tests
             Assert.AreEqual((double)1.2 - (short)2, this.operators.SubtractObject((double)1.2, (short)2));
             Assert.AreEqual((double)2.3 - (short)1, this.operators.SubtractObject((double)2.3, (short)1));
             Assert.AreEqual((double)2.3 - (short)2, this.operators.SubtractObject((double)2.3, (short)2));
-        }
-        
+        }        
+
         [TestMethod]
         public void SubtractDoubleInteger()
         {
@@ -437,8 +438,8 @@ namespace Obops.Tests
             Assert.AreEqual((double)1.2 - (int)2, this.operators.SubtractObject((double)1.2, (int)2));
             Assert.AreEqual((double)2.3 - (int)1, this.operators.SubtractObject((double)2.3, (int)1));
             Assert.AreEqual((double)2.3 - (int)2, this.operators.SubtractObject((double)2.3, (int)2));
-        }
-        
+        }        
+
         [TestMethod]
         public void SubtractDoubleLong()
         {
@@ -446,8 +447,8 @@ namespace Obops.Tests
             Assert.AreEqual((double)1.2 - (long)2, this.operators.SubtractObject((double)1.2, (long)2));
             Assert.AreEqual((double)2.3 - (long)1, this.operators.SubtractObject((double)2.3, (long)1));
             Assert.AreEqual((double)2.3 - (long)2, this.operators.SubtractObject((double)2.3, (long)2));
-        }
-        
+        }        
+
         [TestMethod]
         public void SubtractDoubleFloat()
         {
@@ -455,8 +456,8 @@ namespace Obops.Tests
             Assert.AreEqual((double)1.2 - (float)2.3, this.operators.SubtractObject((double)1.2, (float)2.3));
             Assert.AreEqual((double)2.3 - (float)1.2, this.operators.SubtractObject((double)2.3, (float)1.2));
             Assert.AreEqual((double)2.3 - (float)2.3, this.operators.SubtractObject((double)2.3, (float)2.3));
-        }
-        
+        }        
+
         [TestMethod]
         public void SubtractDoubleDouble()
         {
@@ -464,8 +465,8 @@ namespace Obops.Tests
             Assert.AreEqual((double)1.2 - (double)2.3, this.operators.SubtractObject((double)1.2, (double)2.3));
             Assert.AreEqual((double)2.3 - (double)1.2, this.operators.SubtractObject((double)2.3, (double)1.2));
             Assert.AreEqual((double)2.3 - (double)2.3, this.operators.SubtractObject((double)2.3, (double)2.3));
-        }
-        
+        }        
+
         [TestMethod]
         public void MultiplyShortShort()
         {
@@ -473,8 +474,8 @@ namespace Obops.Tests
             Assert.AreEqual((short)1 * (short)2, this.operators.MultiplyObject((short)1, (short)2));
             Assert.AreEqual((short)2 * (short)1, this.operators.MultiplyObject((short)2, (short)1));
             Assert.AreEqual((short)2 * (short)2, this.operators.MultiplyObject((short)2, (short)2));
-        }
-        
+        }        
+
         [TestMethod]
         public void MultiplyShortInteger()
         {
@@ -482,8 +483,8 @@ namespace Obops.Tests
             Assert.AreEqual((short)1 * (int)2, this.operators.MultiplyObject((short)1, (int)2));
             Assert.AreEqual((short)2 * (int)1, this.operators.MultiplyObject((short)2, (int)1));
             Assert.AreEqual((short)2 * (int)2, this.operators.MultiplyObject((short)2, (int)2));
-        }
-        
+        }        
+
         [TestMethod]
         public void MultiplyShortLong()
         {
@@ -491,8 +492,8 @@ namespace Obops.Tests
             Assert.AreEqual((short)1 * (long)2, this.operators.MultiplyObject((short)1, (long)2));
             Assert.AreEqual((short)2 * (long)1, this.operators.MultiplyObject((short)2, (long)1));
             Assert.AreEqual((short)2 * (long)2, this.operators.MultiplyObject((short)2, (long)2));
-        }
-        
+        }        
+
         [TestMethod]
         public void MultiplyShortFloat()
         {
@@ -500,8 +501,8 @@ namespace Obops.Tests
             Assert.AreEqual((short)1 * (float)2.3, this.operators.MultiplyObject((short)1, (float)2.3));
             Assert.AreEqual((short)2 * (float)1.2, this.operators.MultiplyObject((short)2, (float)1.2));
             Assert.AreEqual((short)2 * (float)2.3, this.operators.MultiplyObject((short)2, (float)2.3));
-        }
-        
+        }        
+
         [TestMethod]
         public void MultiplyShortDouble()
         {
@@ -509,8 +510,8 @@ namespace Obops.Tests
             Assert.AreEqual((short)1 * (double)2.3, this.operators.MultiplyObject((short)1, (double)2.3));
             Assert.AreEqual((short)2 * (double)1.2, this.operators.MultiplyObject((short)2, (double)1.2));
             Assert.AreEqual((short)2 * (double)2.3, this.operators.MultiplyObject((short)2, (double)2.3));
-        }
-        
+        }        
+
         [TestMethod]
         public void MultiplyIntegerShort()
         {
@@ -518,8 +519,8 @@ namespace Obops.Tests
             Assert.AreEqual((int)1 * (short)2, this.operators.MultiplyObject((int)1, (short)2));
             Assert.AreEqual((int)2 * (short)1, this.operators.MultiplyObject((int)2, (short)1));
             Assert.AreEqual((int)2 * (short)2, this.operators.MultiplyObject((int)2, (short)2));
-        }
-        
+        }        
+
         [TestMethod]
         public void MultiplyIntegerInteger()
         {
@@ -527,8 +528,8 @@ namespace Obops.Tests
             Assert.AreEqual((int)1 * (int)2, this.operators.MultiplyObject((int)1, (int)2));
             Assert.AreEqual((int)2 * (int)1, this.operators.MultiplyObject((int)2, (int)1));
             Assert.AreEqual((int)2 * (int)2, this.operators.MultiplyObject((int)2, (int)2));
-        }
-        
+        }        
+
         [TestMethod]
         public void MultiplyIntegerLong()
         {
@@ -536,8 +537,8 @@ namespace Obops.Tests
             Assert.AreEqual((int)1 * (long)2, this.operators.MultiplyObject((int)1, (long)2));
             Assert.AreEqual((int)2 * (long)1, this.operators.MultiplyObject((int)2, (long)1));
             Assert.AreEqual((int)2 * (long)2, this.operators.MultiplyObject((int)2, (long)2));
-        }
-        
+        }        
+
         [TestMethod]
         public void MultiplyIntegerFloat()
         {
@@ -545,8 +546,8 @@ namespace Obops.Tests
             Assert.AreEqual((int)1 * (float)2.3, this.operators.MultiplyObject((int)1, (float)2.3));
             Assert.AreEqual((int)2 * (float)1.2, this.operators.MultiplyObject((int)2, (float)1.2));
             Assert.AreEqual((int)2 * (float)2.3, this.operators.MultiplyObject((int)2, (float)2.3));
-        }
-        
+        }        
+
         [TestMethod]
         public void MultiplyIntegerDouble()
         {
@@ -554,8 +555,8 @@ namespace Obops.Tests
             Assert.AreEqual((int)1 * (double)2.3, this.operators.MultiplyObject((int)1, (double)2.3));
             Assert.AreEqual((int)2 * (double)1.2, this.operators.MultiplyObject((int)2, (double)1.2));
             Assert.AreEqual((int)2 * (double)2.3, this.operators.MultiplyObject((int)2, (double)2.3));
-        }
-        
+        }        
+
         [TestMethod]
         public void MultiplyLongShort()
         {
@@ -563,8 +564,8 @@ namespace Obops.Tests
             Assert.AreEqual((long)1 * (short)2, this.operators.MultiplyObject((long)1, (short)2));
             Assert.AreEqual((long)2 * (short)1, this.operators.MultiplyObject((long)2, (short)1));
             Assert.AreEqual((long)2 * (short)2, this.operators.MultiplyObject((long)2, (short)2));
-        }
-        
+        }        
+
         [TestMethod]
         public void MultiplyLongInteger()
         {
@@ -572,8 +573,8 @@ namespace Obops.Tests
             Assert.AreEqual((long)1 * (int)2, this.operators.MultiplyObject((long)1, (int)2));
             Assert.AreEqual((long)2 * (int)1, this.operators.MultiplyObject((long)2, (int)1));
             Assert.AreEqual((long)2 * (int)2, this.operators.MultiplyObject((long)2, (int)2));
-        }
-        
+        }        
+
         [TestMethod]
         public void MultiplyLongLong()
         {
@@ -581,8 +582,8 @@ namespace Obops.Tests
             Assert.AreEqual((long)1 * (long)2, this.operators.MultiplyObject((long)1, (long)2));
             Assert.AreEqual((long)2 * (long)1, this.operators.MultiplyObject((long)2, (long)1));
             Assert.AreEqual((long)2 * (long)2, this.operators.MultiplyObject((long)2, (long)2));
-        }
-        
+        }        
+
         [TestMethod]
         public void MultiplyLongFloat()
         {
@@ -590,8 +591,8 @@ namespace Obops.Tests
             Assert.AreEqual((long)1 * (float)2.3, this.operators.MultiplyObject((long)1, (float)2.3));
             Assert.AreEqual((long)2 * (float)1.2, this.operators.MultiplyObject((long)2, (float)1.2));
             Assert.AreEqual((long)2 * (float)2.3, this.operators.MultiplyObject((long)2, (float)2.3));
-        }
-        
+        }        
+
         [TestMethod]
         public void MultiplyLongDouble()
         {
@@ -599,8 +600,8 @@ namespace Obops.Tests
             Assert.AreEqual((long)1 * (double)2.3, this.operators.MultiplyObject((long)1, (double)2.3));
             Assert.AreEqual((long)2 * (double)1.2, this.operators.MultiplyObject((long)2, (double)1.2));
             Assert.AreEqual((long)2 * (double)2.3, this.operators.MultiplyObject((long)2, (double)2.3));
-        }
-        
+        }        
+
         [TestMethod]
         public void MultiplyFloatShort()
         {
@@ -608,8 +609,8 @@ namespace Obops.Tests
             Assert.AreEqual((float)1.2 * (short)2, this.operators.MultiplyObject((float)1.2, (short)2));
             Assert.AreEqual((float)2.3 * (short)1, this.operators.MultiplyObject((float)2.3, (short)1));
             Assert.AreEqual((float)2.3 * (short)2, this.operators.MultiplyObject((float)2.3, (short)2));
-        }
-        
+        }        
+
         [TestMethod]
         public void MultiplyFloatInteger()
         {
@@ -617,8 +618,8 @@ namespace Obops.Tests
             Assert.AreEqual((float)1.2 * (int)2, this.operators.MultiplyObject((float)1.2, (int)2));
             Assert.AreEqual((float)2.3 * (int)1, this.operators.MultiplyObject((float)2.3, (int)1));
             Assert.AreEqual((float)2.3 * (int)2, this.operators.MultiplyObject((float)2.3, (int)2));
-        }
-        
+        }        
+
         [TestMethod]
         public void MultiplyFloatLong()
         {
@@ -626,8 +627,8 @@ namespace Obops.Tests
             Assert.AreEqual((float)1.2 * (long)2, this.operators.MultiplyObject((float)1.2, (long)2));
             Assert.AreEqual((float)2.3 * (long)1, this.operators.MultiplyObject((float)2.3, (long)1));
             Assert.AreEqual((float)2.3 * (long)2, this.operators.MultiplyObject((float)2.3, (long)2));
-        }
-        
+        }        
+
         [TestMethod]
         public void MultiplyFloatFloat()
         {
@@ -635,8 +636,8 @@ namespace Obops.Tests
             Assert.AreEqual((float)1.2 * (float)2.3, this.operators.MultiplyObject((float)1.2, (float)2.3));
             Assert.AreEqual((float)2.3 * (float)1.2, this.operators.MultiplyObject((float)2.3, (float)1.2));
             Assert.AreEqual((float)2.3 * (float)2.3, this.operators.MultiplyObject((float)2.3, (float)2.3));
-        }
-        
+        }        
+
         [TestMethod]
         public void MultiplyFloatDouble()
         {
@@ -644,8 +645,8 @@ namespace Obops.Tests
             Assert.AreEqual((float)1.2 * (double)2.3, this.operators.MultiplyObject((float)1.2, (double)2.3));
             Assert.AreEqual((float)2.3 * (double)1.2, this.operators.MultiplyObject((float)2.3, (double)1.2));
             Assert.AreEqual((float)2.3 * (double)2.3, this.operators.MultiplyObject((float)2.3, (double)2.3));
-        }
-        
+        }        
+
         [TestMethod]
         public void MultiplyDoubleShort()
         {
@@ -653,8 +654,8 @@ namespace Obops.Tests
             Assert.AreEqual((double)1.2 * (short)2, this.operators.MultiplyObject((double)1.2, (short)2));
             Assert.AreEqual((double)2.3 * (short)1, this.operators.MultiplyObject((double)2.3, (short)1));
             Assert.AreEqual((double)2.3 * (short)2, this.operators.MultiplyObject((double)2.3, (short)2));
-        }
-        
+        }        
+
         [TestMethod]
         public void MultiplyDoubleInteger()
         {
@@ -662,8 +663,8 @@ namespace Obops.Tests
             Assert.AreEqual((double)1.2 * (int)2, this.operators.MultiplyObject((double)1.2, (int)2));
             Assert.AreEqual((double)2.3 * (int)1, this.operators.MultiplyObject((double)2.3, (int)1));
             Assert.AreEqual((double)2.3 * (int)2, this.operators.MultiplyObject((double)2.3, (int)2));
-        }
-        
+        }        
+
         [TestMethod]
         public void MultiplyDoubleLong()
         {
@@ -671,8 +672,8 @@ namespace Obops.Tests
             Assert.AreEqual((double)1.2 * (long)2, this.operators.MultiplyObject((double)1.2, (long)2));
             Assert.AreEqual((double)2.3 * (long)1, this.operators.MultiplyObject((double)2.3, (long)1));
             Assert.AreEqual((double)2.3 * (long)2, this.operators.MultiplyObject((double)2.3, (long)2));
-        }
-        
+        }        
+
         [TestMethod]
         public void MultiplyDoubleFloat()
         {
@@ -680,8 +681,8 @@ namespace Obops.Tests
             Assert.AreEqual((double)1.2 * (float)2.3, this.operators.MultiplyObject((double)1.2, (float)2.3));
             Assert.AreEqual((double)2.3 * (float)1.2, this.operators.MultiplyObject((double)2.3, (float)1.2));
             Assert.AreEqual((double)2.3 * (float)2.3, this.operators.MultiplyObject((double)2.3, (float)2.3));
-        }
-        
+        }        
+
         [TestMethod]
         public void MultiplyDoubleDouble()
         {
@@ -689,8 +690,8 @@ namespace Obops.Tests
             Assert.AreEqual((double)1.2 * (double)2.3, this.operators.MultiplyObject((double)1.2, (double)2.3));
             Assert.AreEqual((double)2.3 * (double)1.2, this.operators.MultiplyObject((double)2.3, (double)1.2));
             Assert.AreEqual((double)2.3 * (double)2.3, this.operators.MultiplyObject((double)2.3, (double)2.3));
-        }
-        
+        }        
+
         [TestMethod]
         public void DivideShortShort()
         {
@@ -698,8 +699,8 @@ namespace Obops.Tests
             Assert.AreEqual((short)1 / (short)2, this.operators.DivideObject((short)1, (short)2));
             Assert.AreEqual((short)2 / (short)1, this.operators.DivideObject((short)2, (short)1));
             Assert.AreEqual((short)2 / (short)2, this.operators.DivideObject((short)2, (short)2));
-        }
-        
+        }        
+
         [TestMethod]
         public void DivideShortInteger()
         {
@@ -707,8 +708,8 @@ namespace Obops.Tests
             Assert.AreEqual((short)1 / (int)2, this.operators.DivideObject((short)1, (int)2));
             Assert.AreEqual((short)2 / (int)1, this.operators.DivideObject((short)2, (int)1));
             Assert.AreEqual((short)2 / (int)2, this.operators.DivideObject((short)2, (int)2));
-        }
-        
+        }        
+
         [TestMethod]
         public void DivideShortLong()
         {
@@ -716,8 +717,8 @@ namespace Obops.Tests
             Assert.AreEqual((short)1 / (long)2, this.operators.DivideObject((short)1, (long)2));
             Assert.AreEqual((short)2 / (long)1, this.operators.DivideObject((short)2, (long)1));
             Assert.AreEqual((short)2 / (long)2, this.operators.DivideObject((short)2, (long)2));
-        }
-        
+        }        
+
         [TestMethod]
         public void DivideShortFloat()
         {
@@ -725,8 +726,8 @@ namespace Obops.Tests
             Assert.AreEqual((short)1 / (float)2.3, this.operators.DivideObject((short)1, (float)2.3));
             Assert.AreEqual((short)2 / (float)1.2, this.operators.DivideObject((short)2, (float)1.2));
             Assert.AreEqual((short)2 / (float)2.3, this.operators.DivideObject((short)2, (float)2.3));
-        }
-        
+        }        
+
         [TestMethod]
         public void DivideShortDouble()
         {
@@ -734,8 +735,8 @@ namespace Obops.Tests
             Assert.AreEqual((short)1 / (double)2.3, this.operators.DivideObject((short)1, (double)2.3));
             Assert.AreEqual((short)2 / (double)1.2, this.operators.DivideObject((short)2, (double)1.2));
             Assert.AreEqual((short)2 / (double)2.3, this.operators.DivideObject((short)2, (double)2.3));
-        }
-        
+        }        
+
         [TestMethod]
         public void DivideIntegerShort()
         {
@@ -743,8 +744,8 @@ namespace Obops.Tests
             Assert.AreEqual((int)1 / (short)2, this.operators.DivideObject((int)1, (short)2));
             Assert.AreEqual((int)2 / (short)1, this.operators.DivideObject((int)2, (short)1));
             Assert.AreEqual((int)2 / (short)2, this.operators.DivideObject((int)2, (short)2));
-        }
-        
+        }        
+
         [TestMethod]
         public void DivideIntegerInteger()
         {
@@ -752,8 +753,8 @@ namespace Obops.Tests
             Assert.AreEqual((int)1 / (int)2, this.operators.DivideObject((int)1, (int)2));
             Assert.AreEqual((int)2 / (int)1, this.operators.DivideObject((int)2, (int)1));
             Assert.AreEqual((int)2 / (int)2, this.operators.DivideObject((int)2, (int)2));
-        }
-        
+        }        
+
         [TestMethod]
         public void DivideIntegerLong()
         {
@@ -761,8 +762,8 @@ namespace Obops.Tests
             Assert.AreEqual((int)1 / (long)2, this.operators.DivideObject((int)1, (long)2));
             Assert.AreEqual((int)2 / (long)1, this.operators.DivideObject((int)2, (long)1));
             Assert.AreEqual((int)2 / (long)2, this.operators.DivideObject((int)2, (long)2));
-        }
-        
+        }        
+
         [TestMethod]
         public void DivideIntegerFloat()
         {
@@ -770,8 +771,8 @@ namespace Obops.Tests
             Assert.AreEqual((int)1 / (float)2.3, this.operators.DivideObject((int)1, (float)2.3));
             Assert.AreEqual((int)2 / (float)1.2, this.operators.DivideObject((int)2, (float)1.2));
             Assert.AreEqual((int)2 / (float)2.3, this.operators.DivideObject((int)2, (float)2.3));
-        }
-        
+        }        
+
         [TestMethod]
         public void DivideIntegerDouble()
         {
@@ -779,8 +780,8 @@ namespace Obops.Tests
             Assert.AreEqual((int)1 / (double)2.3, this.operators.DivideObject((int)1, (double)2.3));
             Assert.AreEqual((int)2 / (double)1.2, this.operators.DivideObject((int)2, (double)1.2));
             Assert.AreEqual((int)2 / (double)2.3, this.operators.DivideObject((int)2, (double)2.3));
-        }
-        
+        }        
+
         [TestMethod]
         public void DivideLongShort()
         {
@@ -788,8 +789,8 @@ namespace Obops.Tests
             Assert.AreEqual((long)1 / (short)2, this.operators.DivideObject((long)1, (short)2));
             Assert.AreEqual((long)2 / (short)1, this.operators.DivideObject((long)2, (short)1));
             Assert.AreEqual((long)2 / (short)2, this.operators.DivideObject((long)2, (short)2));
-        }
-        
+        }        
+
         [TestMethod]
         public void DivideLongInteger()
         {
@@ -797,8 +798,8 @@ namespace Obops.Tests
             Assert.AreEqual((long)1 / (int)2, this.operators.DivideObject((long)1, (int)2));
             Assert.AreEqual((long)2 / (int)1, this.operators.DivideObject((long)2, (int)1));
             Assert.AreEqual((long)2 / (int)2, this.operators.DivideObject((long)2, (int)2));
-        }
-        
+        }        
+
         [TestMethod]
         public void DivideLongLong()
         {
@@ -806,8 +807,8 @@ namespace Obops.Tests
             Assert.AreEqual((long)1 / (long)2, this.operators.DivideObject((long)1, (long)2));
             Assert.AreEqual((long)2 / (long)1, this.operators.DivideObject((long)2, (long)1));
             Assert.AreEqual((long)2 / (long)2, this.operators.DivideObject((long)2, (long)2));
-        }
-        
+        }        
+
         [TestMethod]
         public void DivideLongFloat()
         {
@@ -815,8 +816,8 @@ namespace Obops.Tests
             Assert.AreEqual((long)1 / (float)2.3, this.operators.DivideObject((long)1, (float)2.3));
             Assert.AreEqual((long)2 / (float)1.2, this.operators.DivideObject((long)2, (float)1.2));
             Assert.AreEqual((long)2 / (float)2.3, this.operators.DivideObject((long)2, (float)2.3));
-        }
-        
+        }        
+
         [TestMethod]
         public void DivideLongDouble()
         {
@@ -824,8 +825,8 @@ namespace Obops.Tests
             Assert.AreEqual((long)1 / (double)2.3, this.operators.DivideObject((long)1, (double)2.3));
             Assert.AreEqual((long)2 / (double)1.2, this.operators.DivideObject((long)2, (double)1.2));
             Assert.AreEqual((long)2 / (double)2.3, this.operators.DivideObject((long)2, (double)2.3));
-        }
-        
+        }        
+
         [TestMethod]
         public void DivideFloatShort()
         {
@@ -833,8 +834,8 @@ namespace Obops.Tests
             Assert.AreEqual((float)1.2 / (short)2, this.operators.DivideObject((float)1.2, (short)2));
             Assert.AreEqual((float)2.3 / (short)1, this.operators.DivideObject((float)2.3, (short)1));
             Assert.AreEqual((float)2.3 / (short)2, this.operators.DivideObject((float)2.3, (short)2));
-        }
-        
+        }        
+
         [TestMethod]
         public void DivideFloatInteger()
         {
@@ -842,8 +843,8 @@ namespace Obops.Tests
             Assert.AreEqual((float)1.2 / (int)2, this.operators.DivideObject((float)1.2, (int)2));
             Assert.AreEqual((float)2.3 / (int)1, this.operators.DivideObject((float)2.3, (int)1));
             Assert.AreEqual((float)2.3 / (int)2, this.operators.DivideObject((float)2.3, (int)2));
-        }
-        
+        }        
+
         [TestMethod]
         public void DivideFloatLong()
         {
@@ -851,8 +852,8 @@ namespace Obops.Tests
             Assert.AreEqual((float)1.2 / (long)2, this.operators.DivideObject((float)1.2, (long)2));
             Assert.AreEqual((float)2.3 / (long)1, this.operators.DivideObject((float)2.3, (long)1));
             Assert.AreEqual((float)2.3 / (long)2, this.operators.DivideObject((float)2.3, (long)2));
-        }
-        
+        }        
+
         [TestMethod]
         public void DivideFloatFloat()
         {
@@ -860,8 +861,8 @@ namespace Obops.Tests
             Assert.AreEqual((float)1.2 / (float)2.3, this.operators.DivideObject((float)1.2, (float)2.3));
             Assert.AreEqual((float)2.3 / (float)1.2, this.operators.DivideObject((float)2.3, (float)1.2));
             Assert.AreEqual((float)2.3 / (float)2.3, this.operators.DivideObject((float)2.3, (float)2.3));
-        }
-        
+        }        
+
         [TestMethod]
         public void DivideFloatDouble()
         {
@@ -869,8 +870,8 @@ namespace Obops.Tests
             Assert.AreEqual((float)1.2 / (double)2.3, this.operators.DivideObject((float)1.2, (double)2.3));
             Assert.AreEqual((float)2.3 / (double)1.2, this.operators.DivideObject((float)2.3, (double)1.2));
             Assert.AreEqual((float)2.3 / (double)2.3, this.operators.DivideObject((float)2.3, (double)2.3));
-        }
-        
+        }        
+
         [TestMethod]
         public void DivideDoubleShort()
         {
@@ -878,8 +879,8 @@ namespace Obops.Tests
             Assert.AreEqual((double)1.2 / (short)2, this.operators.DivideObject((double)1.2, (short)2));
             Assert.AreEqual((double)2.3 / (short)1, this.operators.DivideObject((double)2.3, (short)1));
             Assert.AreEqual((double)2.3 / (short)2, this.operators.DivideObject((double)2.3, (short)2));
-        }
-        
+        }        
+
         [TestMethod]
         public void DivideDoubleInteger()
         {
@@ -887,8 +888,8 @@ namespace Obops.Tests
             Assert.AreEqual((double)1.2 / (int)2, this.operators.DivideObject((double)1.2, (int)2));
             Assert.AreEqual((double)2.3 / (int)1, this.operators.DivideObject((double)2.3, (int)1));
             Assert.AreEqual((double)2.3 / (int)2, this.operators.DivideObject((double)2.3, (int)2));
-        }
-        
+        }        
+
         [TestMethod]
         public void DivideDoubleLong()
         {
@@ -896,8 +897,8 @@ namespace Obops.Tests
             Assert.AreEqual((double)1.2 / (long)2, this.operators.DivideObject((double)1.2, (long)2));
             Assert.AreEqual((double)2.3 / (long)1, this.operators.DivideObject((double)2.3, (long)1));
             Assert.AreEqual((double)2.3 / (long)2, this.operators.DivideObject((double)2.3, (long)2));
-        }
-        
+        }        
+
         [TestMethod]
         public void DivideDoubleFloat()
         {
@@ -905,8 +906,8 @@ namespace Obops.Tests
             Assert.AreEqual((double)1.2 / (float)2.3, this.operators.DivideObject((double)1.2, (float)2.3));
             Assert.AreEqual((double)2.3 / (float)1.2, this.operators.DivideObject((double)2.3, (float)1.2));
             Assert.AreEqual((double)2.3 / (float)2.3, this.operators.DivideObject((double)2.3, (float)2.3));
-        }
-        
+        }        
+
         [TestMethod]
         public void DivideDoubleDouble()
         {
@@ -914,7 +915,1356 @@ namespace Obops.Tests
             Assert.AreEqual((double)1.2 / (double)2.3, this.operators.DivideObject((double)1.2, (double)2.3));
             Assert.AreEqual((double)2.3 / (double)1.2, this.operators.DivideObject((double)2.3, (double)1.2));
             Assert.AreEqual((double)2.3 / (double)2.3, this.operators.DivideObject((double)2.3, (double)2.3));
-        }
-        
+        }        
+
+        [TestMethod]
+        public void EqualShortShort()
+        {
+            Assert.AreEqual((short)1 == (short)1, this.operators.EqualObject((short)1, (short)1));
+            Assert.AreEqual((short)1 == (short)2, this.operators.EqualObject((short)1, (short)2));
+            Assert.AreEqual((short)2 == (short)1, this.operators.EqualObject((short)2, (short)1));
+            Assert.AreEqual((short)2 == (short)2, this.operators.EqualObject((short)2, (short)2));
+        }        
+
+        [TestMethod]
+        public void EqualShortInteger()
+        {
+            Assert.AreEqual((short)1 == (int)1, this.operators.EqualObject((short)1, (int)1));
+            Assert.AreEqual((short)1 == (int)2, this.operators.EqualObject((short)1, (int)2));
+            Assert.AreEqual((short)2 == (int)1, this.operators.EqualObject((short)2, (int)1));
+            Assert.AreEqual((short)2 == (int)2, this.operators.EqualObject((short)2, (int)2));
+        }        
+
+        [TestMethod]
+        public void EqualShortLong()
+        {
+            Assert.AreEqual((short)1 == (long)1, this.operators.EqualObject((short)1, (long)1));
+            Assert.AreEqual((short)1 == (long)2, this.operators.EqualObject((short)1, (long)2));
+            Assert.AreEqual((short)2 == (long)1, this.operators.EqualObject((short)2, (long)1));
+            Assert.AreEqual((short)2 == (long)2, this.operators.EqualObject((short)2, (long)2));
+        }        
+
+        [TestMethod]
+        public void EqualShortFloat()
+        {
+            Assert.AreEqual((short)1 == (float)1.2, this.operators.EqualObject((short)1, (float)1.2));
+            Assert.AreEqual((short)1 == (float)2.3, this.operators.EqualObject((short)1, (float)2.3));
+            Assert.AreEqual((short)2 == (float)1.2, this.operators.EqualObject((short)2, (float)1.2));
+            Assert.AreEqual((short)2 == (float)2.3, this.operators.EqualObject((short)2, (float)2.3));
+        }        
+
+        [TestMethod]
+        public void EqualShortDouble()
+        {
+            Assert.AreEqual((short)1 == (double)1.2, this.operators.EqualObject((short)1, (double)1.2));
+            Assert.AreEqual((short)1 == (double)2.3, this.operators.EqualObject((short)1, (double)2.3));
+            Assert.AreEqual((short)2 == (double)1.2, this.operators.EqualObject((short)2, (double)1.2));
+            Assert.AreEqual((short)2 == (double)2.3, this.operators.EqualObject((short)2, (double)2.3));
+        }        
+
+        [TestMethod]
+        public void EqualIntegerShort()
+        {
+            Assert.AreEqual((int)1 == (short)1, this.operators.EqualObject((int)1, (short)1));
+            Assert.AreEqual((int)1 == (short)2, this.operators.EqualObject((int)1, (short)2));
+            Assert.AreEqual((int)2 == (short)1, this.operators.EqualObject((int)2, (short)1));
+            Assert.AreEqual((int)2 == (short)2, this.operators.EqualObject((int)2, (short)2));
+        }        
+
+        [TestMethod]
+        public void EqualIntegerInteger()
+        {
+            Assert.AreEqual((int)1 == (int)1, this.operators.EqualObject((int)1, (int)1));
+            Assert.AreEqual((int)1 == (int)2, this.operators.EqualObject((int)1, (int)2));
+            Assert.AreEqual((int)2 == (int)1, this.operators.EqualObject((int)2, (int)1));
+            Assert.AreEqual((int)2 == (int)2, this.operators.EqualObject((int)2, (int)2));
+        }        
+
+        [TestMethod]
+        public void EqualIntegerLong()
+        {
+            Assert.AreEqual((int)1 == (long)1, this.operators.EqualObject((int)1, (long)1));
+            Assert.AreEqual((int)1 == (long)2, this.operators.EqualObject((int)1, (long)2));
+            Assert.AreEqual((int)2 == (long)1, this.operators.EqualObject((int)2, (long)1));
+            Assert.AreEqual((int)2 == (long)2, this.operators.EqualObject((int)2, (long)2));
+        }        
+
+        [TestMethod]
+        public void EqualIntegerFloat()
+        {
+            Assert.AreEqual((int)1 == (float)1.2, this.operators.EqualObject((int)1, (float)1.2));
+            Assert.AreEqual((int)1 == (float)2.3, this.operators.EqualObject((int)1, (float)2.3));
+            Assert.AreEqual((int)2 == (float)1.2, this.operators.EqualObject((int)2, (float)1.2));
+            Assert.AreEqual((int)2 == (float)2.3, this.operators.EqualObject((int)2, (float)2.3));
+        }        
+
+        [TestMethod]
+        public void EqualIntegerDouble()
+        {
+            Assert.AreEqual((int)1 == (double)1.2, this.operators.EqualObject((int)1, (double)1.2));
+            Assert.AreEqual((int)1 == (double)2.3, this.operators.EqualObject((int)1, (double)2.3));
+            Assert.AreEqual((int)2 == (double)1.2, this.operators.EqualObject((int)2, (double)1.2));
+            Assert.AreEqual((int)2 == (double)2.3, this.operators.EqualObject((int)2, (double)2.3));
+        }        
+
+        [TestMethod]
+        public void EqualLongShort()
+        {
+            Assert.AreEqual((long)1 == (short)1, this.operators.EqualObject((long)1, (short)1));
+            Assert.AreEqual((long)1 == (short)2, this.operators.EqualObject((long)1, (short)2));
+            Assert.AreEqual((long)2 == (short)1, this.operators.EqualObject((long)2, (short)1));
+            Assert.AreEqual((long)2 == (short)2, this.operators.EqualObject((long)2, (short)2));
+        }        
+
+        [TestMethod]
+        public void EqualLongInteger()
+        {
+            Assert.AreEqual((long)1 == (int)1, this.operators.EqualObject((long)1, (int)1));
+            Assert.AreEqual((long)1 == (int)2, this.operators.EqualObject((long)1, (int)2));
+            Assert.AreEqual((long)2 == (int)1, this.operators.EqualObject((long)2, (int)1));
+            Assert.AreEqual((long)2 == (int)2, this.operators.EqualObject((long)2, (int)2));
+        }        
+
+        [TestMethod]
+        public void EqualLongLong()
+        {
+            Assert.AreEqual((long)1 == (long)1, this.operators.EqualObject((long)1, (long)1));
+            Assert.AreEqual((long)1 == (long)2, this.operators.EqualObject((long)1, (long)2));
+            Assert.AreEqual((long)2 == (long)1, this.operators.EqualObject((long)2, (long)1));
+            Assert.AreEqual((long)2 == (long)2, this.operators.EqualObject((long)2, (long)2));
+        }        
+
+        [TestMethod]
+        public void EqualLongFloat()
+        {
+            Assert.AreEqual((long)1 == (float)1.2, this.operators.EqualObject((long)1, (float)1.2));
+            Assert.AreEqual((long)1 == (float)2.3, this.operators.EqualObject((long)1, (float)2.3));
+            Assert.AreEqual((long)2 == (float)1.2, this.operators.EqualObject((long)2, (float)1.2));
+            Assert.AreEqual((long)2 == (float)2.3, this.operators.EqualObject((long)2, (float)2.3));
+        }        
+
+        [TestMethod]
+        public void EqualLongDouble()
+        {
+            Assert.AreEqual((long)1 == (double)1.2, this.operators.EqualObject((long)1, (double)1.2));
+            Assert.AreEqual((long)1 == (double)2.3, this.operators.EqualObject((long)1, (double)2.3));
+            Assert.AreEqual((long)2 == (double)1.2, this.operators.EqualObject((long)2, (double)1.2));
+            Assert.AreEqual((long)2 == (double)2.3, this.operators.EqualObject((long)2, (double)2.3));
+        }        
+
+        [TestMethod]
+        public void EqualFloatShort()
+        {
+            Assert.AreEqual((float)1.2 == (short)1, this.operators.EqualObject((float)1.2, (short)1));
+            Assert.AreEqual((float)1.2 == (short)2, this.operators.EqualObject((float)1.2, (short)2));
+            Assert.AreEqual((float)2.3 == (short)1, this.operators.EqualObject((float)2.3, (short)1));
+            Assert.AreEqual((float)2.3 == (short)2, this.operators.EqualObject((float)2.3, (short)2));
+        }        
+
+        [TestMethod]
+        public void EqualFloatInteger()
+        {
+            Assert.AreEqual((float)1.2 == (int)1, this.operators.EqualObject((float)1.2, (int)1));
+            Assert.AreEqual((float)1.2 == (int)2, this.operators.EqualObject((float)1.2, (int)2));
+            Assert.AreEqual((float)2.3 == (int)1, this.operators.EqualObject((float)2.3, (int)1));
+            Assert.AreEqual((float)2.3 == (int)2, this.operators.EqualObject((float)2.3, (int)2));
+        }        
+
+        [TestMethod]
+        public void EqualFloatLong()
+        {
+            Assert.AreEqual((float)1.2 == (long)1, this.operators.EqualObject((float)1.2, (long)1));
+            Assert.AreEqual((float)1.2 == (long)2, this.operators.EqualObject((float)1.2, (long)2));
+            Assert.AreEqual((float)2.3 == (long)1, this.operators.EqualObject((float)2.3, (long)1));
+            Assert.AreEqual((float)2.3 == (long)2, this.operators.EqualObject((float)2.3, (long)2));
+        }        
+
+        [TestMethod]
+        public void EqualFloatFloat()
+        {
+            Assert.AreEqual((float)1.2 == (float)1.2, this.operators.EqualObject((float)1.2, (float)1.2));
+            Assert.AreEqual((float)1.2 == (float)2.3, this.operators.EqualObject((float)1.2, (float)2.3));
+            Assert.AreEqual((float)2.3 == (float)1.2, this.operators.EqualObject((float)2.3, (float)1.2));
+            Assert.AreEqual((float)2.3 == (float)2.3, this.operators.EqualObject((float)2.3, (float)2.3));
+        }        
+
+        [TestMethod]
+        public void EqualFloatDouble()
+        {
+            Assert.AreEqual((float)1.2 == (double)1.2, this.operators.EqualObject((float)1.2, (double)1.2));
+            Assert.AreEqual((float)1.2 == (double)2.3, this.operators.EqualObject((float)1.2, (double)2.3));
+            Assert.AreEqual((float)2.3 == (double)1.2, this.operators.EqualObject((float)2.3, (double)1.2));
+            Assert.AreEqual((float)2.3 == (double)2.3, this.operators.EqualObject((float)2.3, (double)2.3));
+        }        
+
+        [TestMethod]
+        public void EqualDoubleShort()
+        {
+            Assert.AreEqual((double)1.2 == (short)1, this.operators.EqualObject((double)1.2, (short)1));
+            Assert.AreEqual((double)1.2 == (short)2, this.operators.EqualObject((double)1.2, (short)2));
+            Assert.AreEqual((double)2.3 == (short)1, this.operators.EqualObject((double)2.3, (short)1));
+            Assert.AreEqual((double)2.3 == (short)2, this.operators.EqualObject((double)2.3, (short)2));
+        }        
+
+        [TestMethod]
+        public void EqualDoubleInteger()
+        {
+            Assert.AreEqual((double)1.2 == (int)1, this.operators.EqualObject((double)1.2, (int)1));
+            Assert.AreEqual((double)1.2 == (int)2, this.operators.EqualObject((double)1.2, (int)2));
+            Assert.AreEqual((double)2.3 == (int)1, this.operators.EqualObject((double)2.3, (int)1));
+            Assert.AreEqual((double)2.3 == (int)2, this.operators.EqualObject((double)2.3, (int)2));
+        }        
+
+        [TestMethod]
+        public void EqualDoubleLong()
+        {
+            Assert.AreEqual((double)1.2 == (long)1, this.operators.EqualObject((double)1.2, (long)1));
+            Assert.AreEqual((double)1.2 == (long)2, this.operators.EqualObject((double)1.2, (long)2));
+            Assert.AreEqual((double)2.3 == (long)1, this.operators.EqualObject((double)2.3, (long)1));
+            Assert.AreEqual((double)2.3 == (long)2, this.operators.EqualObject((double)2.3, (long)2));
+        }        
+
+        [TestMethod]
+        public void EqualDoubleFloat()
+        {
+            Assert.AreEqual((double)1.2 == (float)1.2, this.operators.EqualObject((double)1.2, (float)1.2));
+            Assert.AreEqual((double)1.2 == (float)2.3, this.operators.EqualObject((double)1.2, (float)2.3));
+            Assert.AreEqual((double)2.3 == (float)1.2, this.operators.EqualObject((double)2.3, (float)1.2));
+            Assert.AreEqual((double)2.3 == (float)2.3, this.operators.EqualObject((double)2.3, (float)2.3));
+        }        
+
+        [TestMethod]
+        public void EqualDoubleDouble()
+        {
+            Assert.AreEqual((double)1.2 == (double)1.2, this.operators.EqualObject((double)1.2, (double)1.2));
+            Assert.AreEqual((double)1.2 == (double)2.3, this.operators.EqualObject((double)1.2, (double)2.3));
+            Assert.AreEqual((double)2.3 == (double)1.2, this.operators.EqualObject((double)2.3, (double)1.2));
+            Assert.AreEqual((double)2.3 == (double)2.3, this.operators.EqualObject((double)2.3, (double)2.3));
+        }        
+
+        [TestMethod]
+        public void NotEqualShortShort()
+        {
+            Assert.AreEqual((short)1 != (short)1, this.operators.NotEqualObject((short)1, (short)1));
+            Assert.AreEqual((short)1 != (short)2, this.operators.NotEqualObject((short)1, (short)2));
+            Assert.AreEqual((short)2 != (short)1, this.operators.NotEqualObject((short)2, (short)1));
+            Assert.AreEqual((short)2 != (short)2, this.operators.NotEqualObject((short)2, (short)2));
+        }        
+
+        [TestMethod]
+        public void NotEqualShortInteger()
+        {
+            Assert.AreEqual((short)1 != (int)1, this.operators.NotEqualObject((short)1, (int)1));
+            Assert.AreEqual((short)1 != (int)2, this.operators.NotEqualObject((short)1, (int)2));
+            Assert.AreEqual((short)2 != (int)1, this.operators.NotEqualObject((short)2, (int)1));
+            Assert.AreEqual((short)2 != (int)2, this.operators.NotEqualObject((short)2, (int)2));
+        }        
+
+        [TestMethod]
+        public void NotEqualShortLong()
+        {
+            Assert.AreEqual((short)1 != (long)1, this.operators.NotEqualObject((short)1, (long)1));
+            Assert.AreEqual((short)1 != (long)2, this.operators.NotEqualObject((short)1, (long)2));
+            Assert.AreEqual((short)2 != (long)1, this.operators.NotEqualObject((short)2, (long)1));
+            Assert.AreEqual((short)2 != (long)2, this.operators.NotEqualObject((short)2, (long)2));
+        }        
+
+        [TestMethod]
+        public void NotEqualShortFloat()
+        {
+            Assert.AreEqual((short)1 != (float)1.2, this.operators.NotEqualObject((short)1, (float)1.2));
+            Assert.AreEqual((short)1 != (float)2.3, this.operators.NotEqualObject((short)1, (float)2.3));
+            Assert.AreEqual((short)2 != (float)1.2, this.operators.NotEqualObject((short)2, (float)1.2));
+            Assert.AreEqual((short)2 != (float)2.3, this.operators.NotEqualObject((short)2, (float)2.3));
+        }        
+
+        [TestMethod]
+        public void NotEqualShortDouble()
+        {
+            Assert.AreEqual((short)1 != (double)1.2, this.operators.NotEqualObject((short)1, (double)1.2));
+            Assert.AreEqual((short)1 != (double)2.3, this.operators.NotEqualObject((short)1, (double)2.3));
+            Assert.AreEqual((short)2 != (double)1.2, this.operators.NotEqualObject((short)2, (double)1.2));
+            Assert.AreEqual((short)2 != (double)2.3, this.operators.NotEqualObject((short)2, (double)2.3));
+        }        
+
+        [TestMethod]
+        public void NotEqualIntegerShort()
+        {
+            Assert.AreEqual((int)1 != (short)1, this.operators.NotEqualObject((int)1, (short)1));
+            Assert.AreEqual((int)1 != (short)2, this.operators.NotEqualObject((int)1, (short)2));
+            Assert.AreEqual((int)2 != (short)1, this.operators.NotEqualObject((int)2, (short)1));
+            Assert.AreEqual((int)2 != (short)2, this.operators.NotEqualObject((int)2, (short)2));
+        }        
+
+        [TestMethod]
+        public void NotEqualIntegerInteger()
+        {
+            Assert.AreEqual((int)1 != (int)1, this.operators.NotEqualObject((int)1, (int)1));
+            Assert.AreEqual((int)1 != (int)2, this.operators.NotEqualObject((int)1, (int)2));
+            Assert.AreEqual((int)2 != (int)1, this.operators.NotEqualObject((int)2, (int)1));
+            Assert.AreEqual((int)2 != (int)2, this.operators.NotEqualObject((int)2, (int)2));
+        }        
+
+        [TestMethod]
+        public void NotEqualIntegerLong()
+        {
+            Assert.AreEqual((int)1 != (long)1, this.operators.NotEqualObject((int)1, (long)1));
+            Assert.AreEqual((int)1 != (long)2, this.operators.NotEqualObject((int)1, (long)2));
+            Assert.AreEqual((int)2 != (long)1, this.operators.NotEqualObject((int)2, (long)1));
+            Assert.AreEqual((int)2 != (long)2, this.operators.NotEqualObject((int)2, (long)2));
+        }        
+
+        [TestMethod]
+        public void NotEqualIntegerFloat()
+        {
+            Assert.AreEqual((int)1 != (float)1.2, this.operators.NotEqualObject((int)1, (float)1.2));
+            Assert.AreEqual((int)1 != (float)2.3, this.operators.NotEqualObject((int)1, (float)2.3));
+            Assert.AreEqual((int)2 != (float)1.2, this.operators.NotEqualObject((int)2, (float)1.2));
+            Assert.AreEqual((int)2 != (float)2.3, this.operators.NotEqualObject((int)2, (float)2.3));
+        }        
+
+        [TestMethod]
+        public void NotEqualIntegerDouble()
+        {
+            Assert.AreEqual((int)1 != (double)1.2, this.operators.NotEqualObject((int)1, (double)1.2));
+            Assert.AreEqual((int)1 != (double)2.3, this.operators.NotEqualObject((int)1, (double)2.3));
+            Assert.AreEqual((int)2 != (double)1.2, this.operators.NotEqualObject((int)2, (double)1.2));
+            Assert.AreEqual((int)2 != (double)2.3, this.operators.NotEqualObject((int)2, (double)2.3));
+        }        
+
+        [TestMethod]
+        public void NotEqualLongShort()
+        {
+            Assert.AreEqual((long)1 != (short)1, this.operators.NotEqualObject((long)1, (short)1));
+            Assert.AreEqual((long)1 != (short)2, this.operators.NotEqualObject((long)1, (short)2));
+            Assert.AreEqual((long)2 != (short)1, this.operators.NotEqualObject((long)2, (short)1));
+            Assert.AreEqual((long)2 != (short)2, this.operators.NotEqualObject((long)2, (short)2));
+        }        
+
+        [TestMethod]
+        public void NotEqualLongInteger()
+        {
+            Assert.AreEqual((long)1 != (int)1, this.operators.NotEqualObject((long)1, (int)1));
+            Assert.AreEqual((long)1 != (int)2, this.operators.NotEqualObject((long)1, (int)2));
+            Assert.AreEqual((long)2 != (int)1, this.operators.NotEqualObject((long)2, (int)1));
+            Assert.AreEqual((long)2 != (int)2, this.operators.NotEqualObject((long)2, (int)2));
+        }        
+
+        [TestMethod]
+        public void NotEqualLongLong()
+        {
+            Assert.AreEqual((long)1 != (long)1, this.operators.NotEqualObject((long)1, (long)1));
+            Assert.AreEqual((long)1 != (long)2, this.operators.NotEqualObject((long)1, (long)2));
+            Assert.AreEqual((long)2 != (long)1, this.operators.NotEqualObject((long)2, (long)1));
+            Assert.AreEqual((long)2 != (long)2, this.operators.NotEqualObject((long)2, (long)2));
+        }        
+
+        [TestMethod]
+        public void NotEqualLongFloat()
+        {
+            Assert.AreEqual((long)1 != (float)1.2, this.operators.NotEqualObject((long)1, (float)1.2));
+            Assert.AreEqual((long)1 != (float)2.3, this.operators.NotEqualObject((long)1, (float)2.3));
+            Assert.AreEqual((long)2 != (float)1.2, this.operators.NotEqualObject((long)2, (float)1.2));
+            Assert.AreEqual((long)2 != (float)2.3, this.operators.NotEqualObject((long)2, (float)2.3));
+        }        
+
+        [TestMethod]
+        public void NotEqualLongDouble()
+        {
+            Assert.AreEqual((long)1 != (double)1.2, this.operators.NotEqualObject((long)1, (double)1.2));
+            Assert.AreEqual((long)1 != (double)2.3, this.operators.NotEqualObject((long)1, (double)2.3));
+            Assert.AreEqual((long)2 != (double)1.2, this.operators.NotEqualObject((long)2, (double)1.2));
+            Assert.AreEqual((long)2 != (double)2.3, this.operators.NotEqualObject((long)2, (double)2.3));
+        }        
+
+        [TestMethod]
+        public void NotEqualFloatShort()
+        {
+            Assert.AreEqual((float)1.2 != (short)1, this.operators.NotEqualObject((float)1.2, (short)1));
+            Assert.AreEqual((float)1.2 != (short)2, this.operators.NotEqualObject((float)1.2, (short)2));
+            Assert.AreEqual((float)2.3 != (short)1, this.operators.NotEqualObject((float)2.3, (short)1));
+            Assert.AreEqual((float)2.3 != (short)2, this.operators.NotEqualObject((float)2.3, (short)2));
+        }        
+
+        [TestMethod]
+        public void NotEqualFloatInteger()
+        {
+            Assert.AreEqual((float)1.2 != (int)1, this.operators.NotEqualObject((float)1.2, (int)1));
+            Assert.AreEqual((float)1.2 != (int)2, this.operators.NotEqualObject((float)1.2, (int)2));
+            Assert.AreEqual((float)2.3 != (int)1, this.operators.NotEqualObject((float)2.3, (int)1));
+            Assert.AreEqual((float)2.3 != (int)2, this.operators.NotEqualObject((float)2.3, (int)2));
+        }        
+
+        [TestMethod]
+        public void NotEqualFloatLong()
+        {
+            Assert.AreEqual((float)1.2 != (long)1, this.operators.NotEqualObject((float)1.2, (long)1));
+            Assert.AreEqual((float)1.2 != (long)2, this.operators.NotEqualObject((float)1.2, (long)2));
+            Assert.AreEqual((float)2.3 != (long)1, this.operators.NotEqualObject((float)2.3, (long)1));
+            Assert.AreEqual((float)2.3 != (long)2, this.operators.NotEqualObject((float)2.3, (long)2));
+        }        
+
+        [TestMethod]
+        public void NotEqualFloatFloat()
+        {
+            Assert.AreEqual((float)1.2 != (float)1.2, this.operators.NotEqualObject((float)1.2, (float)1.2));
+            Assert.AreEqual((float)1.2 != (float)2.3, this.operators.NotEqualObject((float)1.2, (float)2.3));
+            Assert.AreEqual((float)2.3 != (float)1.2, this.operators.NotEqualObject((float)2.3, (float)1.2));
+            Assert.AreEqual((float)2.3 != (float)2.3, this.operators.NotEqualObject((float)2.3, (float)2.3));
+        }        
+
+        [TestMethod]
+        public void NotEqualFloatDouble()
+        {
+            Assert.AreEqual((float)1.2 != (double)1.2, this.operators.NotEqualObject((float)1.2, (double)1.2));
+            Assert.AreEqual((float)1.2 != (double)2.3, this.operators.NotEqualObject((float)1.2, (double)2.3));
+            Assert.AreEqual((float)2.3 != (double)1.2, this.operators.NotEqualObject((float)2.3, (double)1.2));
+            Assert.AreEqual((float)2.3 != (double)2.3, this.operators.NotEqualObject((float)2.3, (double)2.3));
+        }        
+
+        [TestMethod]
+        public void NotEqualDoubleShort()
+        {
+            Assert.AreEqual((double)1.2 != (short)1, this.operators.NotEqualObject((double)1.2, (short)1));
+            Assert.AreEqual((double)1.2 != (short)2, this.operators.NotEqualObject((double)1.2, (short)2));
+            Assert.AreEqual((double)2.3 != (short)1, this.operators.NotEqualObject((double)2.3, (short)1));
+            Assert.AreEqual((double)2.3 != (short)2, this.operators.NotEqualObject((double)2.3, (short)2));
+        }        
+
+        [TestMethod]
+        public void NotEqualDoubleInteger()
+        {
+            Assert.AreEqual((double)1.2 != (int)1, this.operators.NotEqualObject((double)1.2, (int)1));
+            Assert.AreEqual((double)1.2 != (int)2, this.operators.NotEqualObject((double)1.2, (int)2));
+            Assert.AreEqual((double)2.3 != (int)1, this.operators.NotEqualObject((double)2.3, (int)1));
+            Assert.AreEqual((double)2.3 != (int)2, this.operators.NotEqualObject((double)2.3, (int)2));
+        }        
+
+        [TestMethod]
+        public void NotEqualDoubleLong()
+        {
+            Assert.AreEqual((double)1.2 != (long)1, this.operators.NotEqualObject((double)1.2, (long)1));
+            Assert.AreEqual((double)1.2 != (long)2, this.operators.NotEqualObject((double)1.2, (long)2));
+            Assert.AreEqual((double)2.3 != (long)1, this.operators.NotEqualObject((double)2.3, (long)1));
+            Assert.AreEqual((double)2.3 != (long)2, this.operators.NotEqualObject((double)2.3, (long)2));
+        }        
+
+        [TestMethod]
+        public void NotEqualDoubleFloat()
+        {
+            Assert.AreEqual((double)1.2 != (float)1.2, this.operators.NotEqualObject((double)1.2, (float)1.2));
+            Assert.AreEqual((double)1.2 != (float)2.3, this.operators.NotEqualObject((double)1.2, (float)2.3));
+            Assert.AreEqual((double)2.3 != (float)1.2, this.operators.NotEqualObject((double)2.3, (float)1.2));
+            Assert.AreEqual((double)2.3 != (float)2.3, this.operators.NotEqualObject((double)2.3, (float)2.3));
+        }        
+
+        [TestMethod]
+        public void NotEqualDoubleDouble()
+        {
+            Assert.AreEqual((double)1.2 != (double)1.2, this.operators.NotEqualObject((double)1.2, (double)1.2));
+            Assert.AreEqual((double)1.2 != (double)2.3, this.operators.NotEqualObject((double)1.2, (double)2.3));
+            Assert.AreEqual((double)2.3 != (double)1.2, this.operators.NotEqualObject((double)2.3, (double)1.2));
+            Assert.AreEqual((double)2.3 != (double)2.3, this.operators.NotEqualObject((double)2.3, (double)2.3));
+        }        
+
+        [TestMethod]
+        public void GreaterShortShort()
+        {
+            Assert.AreEqual((short)1 > (short)1, this.operators.GreaterObject((short)1, (short)1));
+            Assert.AreEqual((short)1 > (short)2, this.operators.GreaterObject((short)1, (short)2));
+            Assert.AreEqual((short)2 > (short)1, this.operators.GreaterObject((short)2, (short)1));
+            Assert.AreEqual((short)2 > (short)2, this.operators.GreaterObject((short)2, (short)2));
+        }        
+
+        [TestMethod]
+        public void GreaterShortInteger()
+        {
+            Assert.AreEqual((short)1 > (int)1, this.operators.GreaterObject((short)1, (int)1));
+            Assert.AreEqual((short)1 > (int)2, this.operators.GreaterObject((short)1, (int)2));
+            Assert.AreEqual((short)2 > (int)1, this.operators.GreaterObject((short)2, (int)1));
+            Assert.AreEqual((short)2 > (int)2, this.operators.GreaterObject((short)2, (int)2));
+        }        
+
+        [TestMethod]
+        public void GreaterShortLong()
+        {
+            Assert.AreEqual((short)1 > (long)1, this.operators.GreaterObject((short)1, (long)1));
+            Assert.AreEqual((short)1 > (long)2, this.operators.GreaterObject((short)1, (long)2));
+            Assert.AreEqual((short)2 > (long)1, this.operators.GreaterObject((short)2, (long)1));
+            Assert.AreEqual((short)2 > (long)2, this.operators.GreaterObject((short)2, (long)2));
+        }        
+
+        [TestMethod]
+        public void GreaterShortFloat()
+        {
+            Assert.AreEqual((short)1 > (float)1.2, this.operators.GreaterObject((short)1, (float)1.2));
+            Assert.AreEqual((short)1 > (float)2.3, this.operators.GreaterObject((short)1, (float)2.3));
+            Assert.AreEqual((short)2 > (float)1.2, this.operators.GreaterObject((short)2, (float)1.2));
+            Assert.AreEqual((short)2 > (float)2.3, this.operators.GreaterObject((short)2, (float)2.3));
+        }        
+
+        [TestMethod]
+        public void GreaterShortDouble()
+        {
+            Assert.AreEqual((short)1 > (double)1.2, this.operators.GreaterObject((short)1, (double)1.2));
+            Assert.AreEqual((short)1 > (double)2.3, this.operators.GreaterObject((short)1, (double)2.3));
+            Assert.AreEqual((short)2 > (double)1.2, this.operators.GreaterObject((short)2, (double)1.2));
+            Assert.AreEqual((short)2 > (double)2.3, this.operators.GreaterObject((short)2, (double)2.3));
+        }        
+
+        [TestMethod]
+        public void GreaterIntegerShort()
+        {
+            Assert.AreEqual((int)1 > (short)1, this.operators.GreaterObject((int)1, (short)1));
+            Assert.AreEqual((int)1 > (short)2, this.operators.GreaterObject((int)1, (short)2));
+            Assert.AreEqual((int)2 > (short)1, this.operators.GreaterObject((int)2, (short)1));
+            Assert.AreEqual((int)2 > (short)2, this.operators.GreaterObject((int)2, (short)2));
+        }        
+
+        [TestMethod]
+        public void GreaterIntegerInteger()
+        {
+            Assert.AreEqual((int)1 > (int)1, this.operators.GreaterObject((int)1, (int)1));
+            Assert.AreEqual((int)1 > (int)2, this.operators.GreaterObject((int)1, (int)2));
+            Assert.AreEqual((int)2 > (int)1, this.operators.GreaterObject((int)2, (int)1));
+            Assert.AreEqual((int)2 > (int)2, this.operators.GreaterObject((int)2, (int)2));
+        }        
+
+        [TestMethod]
+        public void GreaterIntegerLong()
+        {
+            Assert.AreEqual((int)1 > (long)1, this.operators.GreaterObject((int)1, (long)1));
+            Assert.AreEqual((int)1 > (long)2, this.operators.GreaterObject((int)1, (long)2));
+            Assert.AreEqual((int)2 > (long)1, this.operators.GreaterObject((int)2, (long)1));
+            Assert.AreEqual((int)2 > (long)2, this.operators.GreaterObject((int)2, (long)2));
+        }        
+
+        [TestMethod]
+        public void GreaterIntegerFloat()
+        {
+            Assert.AreEqual((int)1 > (float)1.2, this.operators.GreaterObject((int)1, (float)1.2));
+            Assert.AreEqual((int)1 > (float)2.3, this.operators.GreaterObject((int)1, (float)2.3));
+            Assert.AreEqual((int)2 > (float)1.2, this.operators.GreaterObject((int)2, (float)1.2));
+            Assert.AreEqual((int)2 > (float)2.3, this.operators.GreaterObject((int)2, (float)2.3));
+        }        
+
+        [TestMethod]
+        public void GreaterIntegerDouble()
+        {
+            Assert.AreEqual((int)1 > (double)1.2, this.operators.GreaterObject((int)1, (double)1.2));
+            Assert.AreEqual((int)1 > (double)2.3, this.operators.GreaterObject((int)1, (double)2.3));
+            Assert.AreEqual((int)2 > (double)1.2, this.operators.GreaterObject((int)2, (double)1.2));
+            Assert.AreEqual((int)2 > (double)2.3, this.operators.GreaterObject((int)2, (double)2.3));
+        }        
+
+        [TestMethod]
+        public void GreaterLongShort()
+        {
+            Assert.AreEqual((long)1 > (short)1, this.operators.GreaterObject((long)1, (short)1));
+            Assert.AreEqual((long)1 > (short)2, this.operators.GreaterObject((long)1, (short)2));
+            Assert.AreEqual((long)2 > (short)1, this.operators.GreaterObject((long)2, (short)1));
+            Assert.AreEqual((long)2 > (short)2, this.operators.GreaterObject((long)2, (short)2));
+        }        
+
+        [TestMethod]
+        public void GreaterLongInteger()
+        {
+            Assert.AreEqual((long)1 > (int)1, this.operators.GreaterObject((long)1, (int)1));
+            Assert.AreEqual((long)1 > (int)2, this.operators.GreaterObject((long)1, (int)2));
+            Assert.AreEqual((long)2 > (int)1, this.operators.GreaterObject((long)2, (int)1));
+            Assert.AreEqual((long)2 > (int)2, this.operators.GreaterObject((long)2, (int)2));
+        }        
+
+        [TestMethod]
+        public void GreaterLongLong()
+        {
+            Assert.AreEqual((long)1 > (long)1, this.operators.GreaterObject((long)1, (long)1));
+            Assert.AreEqual((long)1 > (long)2, this.operators.GreaterObject((long)1, (long)2));
+            Assert.AreEqual((long)2 > (long)1, this.operators.GreaterObject((long)2, (long)1));
+            Assert.AreEqual((long)2 > (long)2, this.operators.GreaterObject((long)2, (long)2));
+        }        
+
+        [TestMethod]
+        public void GreaterLongFloat()
+        {
+            Assert.AreEqual((long)1 > (float)1.2, this.operators.GreaterObject((long)1, (float)1.2));
+            Assert.AreEqual((long)1 > (float)2.3, this.operators.GreaterObject((long)1, (float)2.3));
+            Assert.AreEqual((long)2 > (float)1.2, this.operators.GreaterObject((long)2, (float)1.2));
+            Assert.AreEqual((long)2 > (float)2.3, this.operators.GreaterObject((long)2, (float)2.3));
+        }        
+
+        [TestMethod]
+        public void GreaterLongDouble()
+        {
+            Assert.AreEqual((long)1 > (double)1.2, this.operators.GreaterObject((long)1, (double)1.2));
+            Assert.AreEqual((long)1 > (double)2.3, this.operators.GreaterObject((long)1, (double)2.3));
+            Assert.AreEqual((long)2 > (double)1.2, this.operators.GreaterObject((long)2, (double)1.2));
+            Assert.AreEqual((long)2 > (double)2.3, this.operators.GreaterObject((long)2, (double)2.3));
+        }        
+
+        [TestMethod]
+        public void GreaterFloatShort()
+        {
+            Assert.AreEqual((float)1.2 > (short)1, this.operators.GreaterObject((float)1.2, (short)1));
+            Assert.AreEqual((float)1.2 > (short)2, this.operators.GreaterObject((float)1.2, (short)2));
+            Assert.AreEqual((float)2.3 > (short)1, this.operators.GreaterObject((float)2.3, (short)1));
+            Assert.AreEqual((float)2.3 > (short)2, this.operators.GreaterObject((float)2.3, (short)2));
+        }        
+
+        [TestMethod]
+        public void GreaterFloatInteger()
+        {
+            Assert.AreEqual((float)1.2 > (int)1, this.operators.GreaterObject((float)1.2, (int)1));
+            Assert.AreEqual((float)1.2 > (int)2, this.operators.GreaterObject((float)1.2, (int)2));
+            Assert.AreEqual((float)2.3 > (int)1, this.operators.GreaterObject((float)2.3, (int)1));
+            Assert.AreEqual((float)2.3 > (int)2, this.operators.GreaterObject((float)2.3, (int)2));
+        }        
+
+        [TestMethod]
+        public void GreaterFloatLong()
+        {
+            Assert.AreEqual((float)1.2 > (long)1, this.operators.GreaterObject((float)1.2, (long)1));
+            Assert.AreEqual((float)1.2 > (long)2, this.operators.GreaterObject((float)1.2, (long)2));
+            Assert.AreEqual((float)2.3 > (long)1, this.operators.GreaterObject((float)2.3, (long)1));
+            Assert.AreEqual((float)2.3 > (long)2, this.operators.GreaterObject((float)2.3, (long)2));
+        }        
+
+        [TestMethod]
+        public void GreaterFloatFloat()
+        {
+            Assert.AreEqual((float)1.2 > (float)1.2, this.operators.GreaterObject((float)1.2, (float)1.2));
+            Assert.AreEqual((float)1.2 > (float)2.3, this.operators.GreaterObject((float)1.2, (float)2.3));
+            Assert.AreEqual((float)2.3 > (float)1.2, this.operators.GreaterObject((float)2.3, (float)1.2));
+            Assert.AreEqual((float)2.3 > (float)2.3, this.operators.GreaterObject((float)2.3, (float)2.3));
+        }        
+
+        [TestMethod]
+        public void GreaterFloatDouble()
+        {
+            Assert.AreEqual((float)1.2 > (double)1.2, this.operators.GreaterObject((float)1.2, (double)1.2));
+            Assert.AreEqual((float)1.2 > (double)2.3, this.operators.GreaterObject((float)1.2, (double)2.3));
+            Assert.AreEqual((float)2.3 > (double)1.2, this.operators.GreaterObject((float)2.3, (double)1.2));
+            Assert.AreEqual((float)2.3 > (double)2.3, this.operators.GreaterObject((float)2.3, (double)2.3));
+        }        
+
+        [TestMethod]
+        public void GreaterDoubleShort()
+        {
+            Assert.AreEqual((double)1.2 > (short)1, this.operators.GreaterObject((double)1.2, (short)1));
+            Assert.AreEqual((double)1.2 > (short)2, this.operators.GreaterObject((double)1.2, (short)2));
+            Assert.AreEqual((double)2.3 > (short)1, this.operators.GreaterObject((double)2.3, (short)1));
+            Assert.AreEqual((double)2.3 > (short)2, this.operators.GreaterObject((double)2.3, (short)2));
+        }        
+
+        [TestMethod]
+        public void GreaterDoubleInteger()
+        {
+            Assert.AreEqual((double)1.2 > (int)1, this.operators.GreaterObject((double)1.2, (int)1));
+            Assert.AreEqual((double)1.2 > (int)2, this.operators.GreaterObject((double)1.2, (int)2));
+            Assert.AreEqual((double)2.3 > (int)1, this.operators.GreaterObject((double)2.3, (int)1));
+            Assert.AreEqual((double)2.3 > (int)2, this.operators.GreaterObject((double)2.3, (int)2));
+        }        
+
+        [TestMethod]
+        public void GreaterDoubleLong()
+        {
+            Assert.AreEqual((double)1.2 > (long)1, this.operators.GreaterObject((double)1.2, (long)1));
+            Assert.AreEqual((double)1.2 > (long)2, this.operators.GreaterObject((double)1.2, (long)2));
+            Assert.AreEqual((double)2.3 > (long)1, this.operators.GreaterObject((double)2.3, (long)1));
+            Assert.AreEqual((double)2.3 > (long)2, this.operators.GreaterObject((double)2.3, (long)2));
+        }        
+
+        [TestMethod]
+        public void GreaterDoubleFloat()
+        {
+            Assert.AreEqual((double)1.2 > (float)1.2, this.operators.GreaterObject((double)1.2, (float)1.2));
+            Assert.AreEqual((double)1.2 > (float)2.3, this.operators.GreaterObject((double)1.2, (float)2.3));
+            Assert.AreEqual((double)2.3 > (float)1.2, this.operators.GreaterObject((double)2.3, (float)1.2));
+            Assert.AreEqual((double)2.3 > (float)2.3, this.operators.GreaterObject((double)2.3, (float)2.3));
+        }        
+
+        [TestMethod]
+        public void GreaterDoubleDouble()
+        {
+            Assert.AreEqual((double)1.2 > (double)1.2, this.operators.GreaterObject((double)1.2, (double)1.2));
+            Assert.AreEqual((double)1.2 > (double)2.3, this.operators.GreaterObject((double)1.2, (double)2.3));
+            Assert.AreEqual((double)2.3 > (double)1.2, this.operators.GreaterObject((double)2.3, (double)1.2));
+            Assert.AreEqual((double)2.3 > (double)2.3, this.operators.GreaterObject((double)2.3, (double)2.3));
+        }        
+
+        [TestMethod]
+        public void GreaterEqualShortShort()
+        {
+            Assert.AreEqual((short)1 >= (short)1, this.operators.GreaterEqualObject((short)1, (short)1));
+            Assert.AreEqual((short)1 >= (short)2, this.operators.GreaterEqualObject((short)1, (short)2));
+            Assert.AreEqual((short)2 >= (short)1, this.operators.GreaterEqualObject((short)2, (short)1));
+            Assert.AreEqual((short)2 >= (short)2, this.operators.GreaterEqualObject((short)2, (short)2));
+        }        
+
+        [TestMethod]
+        public void GreaterEqualShortInteger()
+        {
+            Assert.AreEqual((short)1 >= (int)1, this.operators.GreaterEqualObject((short)1, (int)1));
+            Assert.AreEqual((short)1 >= (int)2, this.operators.GreaterEqualObject((short)1, (int)2));
+            Assert.AreEqual((short)2 >= (int)1, this.operators.GreaterEqualObject((short)2, (int)1));
+            Assert.AreEqual((short)2 >= (int)2, this.operators.GreaterEqualObject((short)2, (int)2));
+        }        
+
+        [TestMethod]
+        public void GreaterEqualShortLong()
+        {
+            Assert.AreEqual((short)1 >= (long)1, this.operators.GreaterEqualObject((short)1, (long)1));
+            Assert.AreEqual((short)1 >= (long)2, this.operators.GreaterEqualObject((short)1, (long)2));
+            Assert.AreEqual((short)2 >= (long)1, this.operators.GreaterEqualObject((short)2, (long)1));
+            Assert.AreEqual((short)2 >= (long)2, this.operators.GreaterEqualObject((short)2, (long)2));
+        }        
+
+        [TestMethod]
+        public void GreaterEqualShortFloat()
+        {
+            Assert.AreEqual((short)1 >= (float)1.2, this.operators.GreaterEqualObject((short)1, (float)1.2));
+            Assert.AreEqual((short)1 >= (float)2.3, this.operators.GreaterEqualObject((short)1, (float)2.3));
+            Assert.AreEqual((short)2 >= (float)1.2, this.operators.GreaterEqualObject((short)2, (float)1.2));
+            Assert.AreEqual((short)2 >= (float)2.3, this.operators.GreaterEqualObject((short)2, (float)2.3));
+        }        
+
+        [TestMethod]
+        public void GreaterEqualShortDouble()
+        {
+            Assert.AreEqual((short)1 >= (double)1.2, this.operators.GreaterEqualObject((short)1, (double)1.2));
+            Assert.AreEqual((short)1 >= (double)2.3, this.operators.GreaterEqualObject((short)1, (double)2.3));
+            Assert.AreEqual((short)2 >= (double)1.2, this.operators.GreaterEqualObject((short)2, (double)1.2));
+            Assert.AreEqual((short)2 >= (double)2.3, this.operators.GreaterEqualObject((short)2, (double)2.3));
+        }        
+
+        [TestMethod]
+        public void GreaterEqualIntegerShort()
+        {
+            Assert.AreEqual((int)1 >= (short)1, this.operators.GreaterEqualObject((int)1, (short)1));
+            Assert.AreEqual((int)1 >= (short)2, this.operators.GreaterEqualObject((int)1, (short)2));
+            Assert.AreEqual((int)2 >= (short)1, this.operators.GreaterEqualObject((int)2, (short)1));
+            Assert.AreEqual((int)2 >= (short)2, this.operators.GreaterEqualObject((int)2, (short)2));
+        }        
+
+        [TestMethod]
+        public void GreaterEqualIntegerInteger()
+        {
+            Assert.AreEqual((int)1 >= (int)1, this.operators.GreaterEqualObject((int)1, (int)1));
+            Assert.AreEqual((int)1 >= (int)2, this.operators.GreaterEqualObject((int)1, (int)2));
+            Assert.AreEqual((int)2 >= (int)1, this.operators.GreaterEqualObject((int)2, (int)1));
+            Assert.AreEqual((int)2 >= (int)2, this.operators.GreaterEqualObject((int)2, (int)2));
+        }        
+
+        [TestMethod]
+        public void GreaterEqualIntegerLong()
+        {
+            Assert.AreEqual((int)1 >= (long)1, this.operators.GreaterEqualObject((int)1, (long)1));
+            Assert.AreEqual((int)1 >= (long)2, this.operators.GreaterEqualObject((int)1, (long)2));
+            Assert.AreEqual((int)2 >= (long)1, this.operators.GreaterEqualObject((int)2, (long)1));
+            Assert.AreEqual((int)2 >= (long)2, this.operators.GreaterEqualObject((int)2, (long)2));
+        }        
+
+        [TestMethod]
+        public void GreaterEqualIntegerFloat()
+        {
+            Assert.AreEqual((int)1 >= (float)1.2, this.operators.GreaterEqualObject((int)1, (float)1.2));
+            Assert.AreEqual((int)1 >= (float)2.3, this.operators.GreaterEqualObject((int)1, (float)2.3));
+            Assert.AreEqual((int)2 >= (float)1.2, this.operators.GreaterEqualObject((int)2, (float)1.2));
+            Assert.AreEqual((int)2 >= (float)2.3, this.operators.GreaterEqualObject((int)2, (float)2.3));
+        }        
+
+        [TestMethod]
+        public void GreaterEqualIntegerDouble()
+        {
+            Assert.AreEqual((int)1 >= (double)1.2, this.operators.GreaterEqualObject((int)1, (double)1.2));
+            Assert.AreEqual((int)1 >= (double)2.3, this.operators.GreaterEqualObject((int)1, (double)2.3));
+            Assert.AreEqual((int)2 >= (double)1.2, this.operators.GreaterEqualObject((int)2, (double)1.2));
+            Assert.AreEqual((int)2 >= (double)2.3, this.operators.GreaterEqualObject((int)2, (double)2.3));
+        }        
+
+        [TestMethod]
+        public void GreaterEqualLongShort()
+        {
+            Assert.AreEqual((long)1 >= (short)1, this.operators.GreaterEqualObject((long)1, (short)1));
+            Assert.AreEqual((long)1 >= (short)2, this.operators.GreaterEqualObject((long)1, (short)2));
+            Assert.AreEqual((long)2 >= (short)1, this.operators.GreaterEqualObject((long)2, (short)1));
+            Assert.AreEqual((long)2 >= (short)2, this.operators.GreaterEqualObject((long)2, (short)2));
+        }        
+
+        [TestMethod]
+        public void GreaterEqualLongInteger()
+        {
+            Assert.AreEqual((long)1 >= (int)1, this.operators.GreaterEqualObject((long)1, (int)1));
+            Assert.AreEqual((long)1 >= (int)2, this.operators.GreaterEqualObject((long)1, (int)2));
+            Assert.AreEqual((long)2 >= (int)1, this.operators.GreaterEqualObject((long)2, (int)1));
+            Assert.AreEqual((long)2 >= (int)2, this.operators.GreaterEqualObject((long)2, (int)2));
+        }        
+
+        [TestMethod]
+        public void GreaterEqualLongLong()
+        {
+            Assert.AreEqual((long)1 >= (long)1, this.operators.GreaterEqualObject((long)1, (long)1));
+            Assert.AreEqual((long)1 >= (long)2, this.operators.GreaterEqualObject((long)1, (long)2));
+            Assert.AreEqual((long)2 >= (long)1, this.operators.GreaterEqualObject((long)2, (long)1));
+            Assert.AreEqual((long)2 >= (long)2, this.operators.GreaterEqualObject((long)2, (long)2));
+        }        
+
+        [TestMethod]
+        public void GreaterEqualLongFloat()
+        {
+            Assert.AreEqual((long)1 >= (float)1.2, this.operators.GreaterEqualObject((long)1, (float)1.2));
+            Assert.AreEqual((long)1 >= (float)2.3, this.operators.GreaterEqualObject((long)1, (float)2.3));
+            Assert.AreEqual((long)2 >= (float)1.2, this.operators.GreaterEqualObject((long)2, (float)1.2));
+            Assert.AreEqual((long)2 >= (float)2.3, this.operators.GreaterEqualObject((long)2, (float)2.3));
+        }        
+
+        [TestMethod]
+        public void GreaterEqualLongDouble()
+        {
+            Assert.AreEqual((long)1 >= (double)1.2, this.operators.GreaterEqualObject((long)1, (double)1.2));
+            Assert.AreEqual((long)1 >= (double)2.3, this.operators.GreaterEqualObject((long)1, (double)2.3));
+            Assert.AreEqual((long)2 >= (double)1.2, this.operators.GreaterEqualObject((long)2, (double)1.2));
+            Assert.AreEqual((long)2 >= (double)2.3, this.operators.GreaterEqualObject((long)2, (double)2.3));
+        }        
+
+        [TestMethod]
+        public void GreaterEqualFloatShort()
+        {
+            Assert.AreEqual((float)1.2 >= (short)1, this.operators.GreaterEqualObject((float)1.2, (short)1));
+            Assert.AreEqual((float)1.2 >= (short)2, this.operators.GreaterEqualObject((float)1.2, (short)2));
+            Assert.AreEqual((float)2.3 >= (short)1, this.operators.GreaterEqualObject((float)2.3, (short)1));
+            Assert.AreEqual((float)2.3 >= (short)2, this.operators.GreaterEqualObject((float)2.3, (short)2));
+        }        
+
+        [TestMethod]
+        public void GreaterEqualFloatInteger()
+        {
+            Assert.AreEqual((float)1.2 >= (int)1, this.operators.GreaterEqualObject((float)1.2, (int)1));
+            Assert.AreEqual((float)1.2 >= (int)2, this.operators.GreaterEqualObject((float)1.2, (int)2));
+            Assert.AreEqual((float)2.3 >= (int)1, this.operators.GreaterEqualObject((float)2.3, (int)1));
+            Assert.AreEqual((float)2.3 >= (int)2, this.operators.GreaterEqualObject((float)2.3, (int)2));
+        }        
+
+        [TestMethod]
+        public void GreaterEqualFloatLong()
+        {
+            Assert.AreEqual((float)1.2 >= (long)1, this.operators.GreaterEqualObject((float)1.2, (long)1));
+            Assert.AreEqual((float)1.2 >= (long)2, this.operators.GreaterEqualObject((float)1.2, (long)2));
+            Assert.AreEqual((float)2.3 >= (long)1, this.operators.GreaterEqualObject((float)2.3, (long)1));
+            Assert.AreEqual((float)2.3 >= (long)2, this.operators.GreaterEqualObject((float)2.3, (long)2));
+        }        
+
+        [TestMethod]
+        public void GreaterEqualFloatFloat()
+        {
+            Assert.AreEqual((float)1.2 >= (float)1.2, this.operators.GreaterEqualObject((float)1.2, (float)1.2));
+            Assert.AreEqual((float)1.2 >= (float)2.3, this.operators.GreaterEqualObject((float)1.2, (float)2.3));
+            Assert.AreEqual((float)2.3 >= (float)1.2, this.operators.GreaterEqualObject((float)2.3, (float)1.2));
+            Assert.AreEqual((float)2.3 >= (float)2.3, this.operators.GreaterEqualObject((float)2.3, (float)2.3));
+        }        
+
+        [TestMethod]
+        public void GreaterEqualFloatDouble()
+        {
+            Assert.AreEqual((float)1.2 >= (double)1.2, this.operators.GreaterEqualObject((float)1.2, (double)1.2));
+            Assert.AreEqual((float)1.2 >= (double)2.3, this.operators.GreaterEqualObject((float)1.2, (double)2.3));
+            Assert.AreEqual((float)2.3 >= (double)1.2, this.operators.GreaterEqualObject((float)2.3, (double)1.2));
+            Assert.AreEqual((float)2.3 >= (double)2.3, this.operators.GreaterEqualObject((float)2.3, (double)2.3));
+        }        
+
+        [TestMethod]
+        public void GreaterEqualDoubleShort()
+        {
+            Assert.AreEqual((double)1.2 >= (short)1, this.operators.GreaterEqualObject((double)1.2, (short)1));
+            Assert.AreEqual((double)1.2 >= (short)2, this.operators.GreaterEqualObject((double)1.2, (short)2));
+            Assert.AreEqual((double)2.3 >= (short)1, this.operators.GreaterEqualObject((double)2.3, (short)1));
+            Assert.AreEqual((double)2.3 >= (short)2, this.operators.GreaterEqualObject((double)2.3, (short)2));
+        }        
+
+        [TestMethod]
+        public void GreaterEqualDoubleInteger()
+        {
+            Assert.AreEqual((double)1.2 >= (int)1, this.operators.GreaterEqualObject((double)1.2, (int)1));
+            Assert.AreEqual((double)1.2 >= (int)2, this.operators.GreaterEqualObject((double)1.2, (int)2));
+            Assert.AreEqual((double)2.3 >= (int)1, this.operators.GreaterEqualObject((double)2.3, (int)1));
+            Assert.AreEqual((double)2.3 >= (int)2, this.operators.GreaterEqualObject((double)2.3, (int)2));
+        }        
+
+        [TestMethod]
+        public void GreaterEqualDoubleLong()
+        {
+            Assert.AreEqual((double)1.2 >= (long)1, this.operators.GreaterEqualObject((double)1.2, (long)1));
+            Assert.AreEqual((double)1.2 >= (long)2, this.operators.GreaterEqualObject((double)1.2, (long)2));
+            Assert.AreEqual((double)2.3 >= (long)1, this.operators.GreaterEqualObject((double)2.3, (long)1));
+            Assert.AreEqual((double)2.3 >= (long)2, this.operators.GreaterEqualObject((double)2.3, (long)2));
+        }        
+
+        [TestMethod]
+        public void GreaterEqualDoubleFloat()
+        {
+            Assert.AreEqual((double)1.2 >= (float)1.2, this.operators.GreaterEqualObject((double)1.2, (float)1.2));
+            Assert.AreEqual((double)1.2 >= (float)2.3, this.operators.GreaterEqualObject((double)1.2, (float)2.3));
+            Assert.AreEqual((double)2.3 >= (float)1.2, this.operators.GreaterEqualObject((double)2.3, (float)1.2));
+            Assert.AreEqual((double)2.3 >= (float)2.3, this.operators.GreaterEqualObject((double)2.3, (float)2.3));
+        }        
+
+        [TestMethod]
+        public void GreaterEqualDoubleDouble()
+        {
+            Assert.AreEqual((double)1.2 >= (double)1.2, this.operators.GreaterEqualObject((double)1.2, (double)1.2));
+            Assert.AreEqual((double)1.2 >= (double)2.3, this.operators.GreaterEqualObject((double)1.2, (double)2.3));
+            Assert.AreEqual((double)2.3 >= (double)1.2, this.operators.GreaterEqualObject((double)2.3, (double)1.2));
+            Assert.AreEqual((double)2.3 >= (double)2.3, this.operators.GreaterEqualObject((double)2.3, (double)2.3));
+        }        
+
+        [TestMethod]
+        public void LessShortShort()
+        {
+            Assert.AreEqual((short)1 < (short)1, this.operators.LessObject((short)1, (short)1));
+            Assert.AreEqual((short)1 < (short)2, this.operators.LessObject((short)1, (short)2));
+            Assert.AreEqual((short)2 < (short)1, this.operators.LessObject((short)2, (short)1));
+            Assert.AreEqual((short)2 < (short)2, this.operators.LessObject((short)2, (short)2));
+        }        
+
+        [TestMethod]
+        public void LessShortInteger()
+        {
+            Assert.AreEqual((short)1 < (int)1, this.operators.LessObject((short)1, (int)1));
+            Assert.AreEqual((short)1 < (int)2, this.operators.LessObject((short)1, (int)2));
+            Assert.AreEqual((short)2 < (int)1, this.operators.LessObject((short)2, (int)1));
+            Assert.AreEqual((short)2 < (int)2, this.operators.LessObject((short)2, (int)2));
+        }        
+
+        [TestMethod]
+        public void LessShortLong()
+        {
+            Assert.AreEqual((short)1 < (long)1, this.operators.LessObject((short)1, (long)1));
+            Assert.AreEqual((short)1 < (long)2, this.operators.LessObject((short)1, (long)2));
+            Assert.AreEqual((short)2 < (long)1, this.operators.LessObject((short)2, (long)1));
+            Assert.AreEqual((short)2 < (long)2, this.operators.LessObject((short)2, (long)2));
+        }        
+
+        [TestMethod]
+        public void LessShortFloat()
+        {
+            Assert.AreEqual((short)1 < (float)1.2, this.operators.LessObject((short)1, (float)1.2));
+            Assert.AreEqual((short)1 < (float)2.3, this.operators.LessObject((short)1, (float)2.3));
+            Assert.AreEqual((short)2 < (float)1.2, this.operators.LessObject((short)2, (float)1.2));
+            Assert.AreEqual((short)2 < (float)2.3, this.operators.LessObject((short)2, (float)2.3));
+        }        
+
+        [TestMethod]
+        public void LessShortDouble()
+        {
+            Assert.AreEqual((short)1 < (double)1.2, this.operators.LessObject((short)1, (double)1.2));
+            Assert.AreEqual((short)1 < (double)2.3, this.operators.LessObject((short)1, (double)2.3));
+            Assert.AreEqual((short)2 < (double)1.2, this.operators.LessObject((short)2, (double)1.2));
+            Assert.AreEqual((short)2 < (double)2.3, this.operators.LessObject((short)2, (double)2.3));
+        }        
+
+        [TestMethod]
+        public void LessIntegerShort()
+        {
+            Assert.AreEqual((int)1 < (short)1, this.operators.LessObject((int)1, (short)1));
+            Assert.AreEqual((int)1 < (short)2, this.operators.LessObject((int)1, (short)2));
+            Assert.AreEqual((int)2 < (short)1, this.operators.LessObject((int)2, (short)1));
+            Assert.AreEqual((int)2 < (short)2, this.operators.LessObject((int)2, (short)2));
+        }        
+
+        [TestMethod]
+        public void LessIntegerInteger()
+        {
+            Assert.AreEqual((int)1 < (int)1, this.operators.LessObject((int)1, (int)1));
+            Assert.AreEqual((int)1 < (int)2, this.operators.LessObject((int)1, (int)2));
+            Assert.AreEqual((int)2 < (int)1, this.operators.LessObject((int)2, (int)1));
+            Assert.AreEqual((int)2 < (int)2, this.operators.LessObject((int)2, (int)2));
+        }        
+
+        [TestMethod]
+        public void LessIntegerLong()
+        {
+            Assert.AreEqual((int)1 < (long)1, this.operators.LessObject((int)1, (long)1));
+            Assert.AreEqual((int)1 < (long)2, this.operators.LessObject((int)1, (long)2));
+            Assert.AreEqual((int)2 < (long)1, this.operators.LessObject((int)2, (long)1));
+            Assert.AreEqual((int)2 < (long)2, this.operators.LessObject((int)2, (long)2));
+        }        
+
+        [TestMethod]
+        public void LessIntegerFloat()
+        {
+            Assert.AreEqual((int)1 < (float)1.2, this.operators.LessObject((int)1, (float)1.2));
+            Assert.AreEqual((int)1 < (float)2.3, this.operators.LessObject((int)1, (float)2.3));
+            Assert.AreEqual((int)2 < (float)1.2, this.operators.LessObject((int)2, (float)1.2));
+            Assert.AreEqual((int)2 < (float)2.3, this.operators.LessObject((int)2, (float)2.3));
+        }        
+
+        [TestMethod]
+        public void LessIntegerDouble()
+        {
+            Assert.AreEqual((int)1 < (double)1.2, this.operators.LessObject((int)1, (double)1.2));
+            Assert.AreEqual((int)1 < (double)2.3, this.operators.LessObject((int)1, (double)2.3));
+            Assert.AreEqual((int)2 < (double)1.2, this.operators.LessObject((int)2, (double)1.2));
+            Assert.AreEqual((int)2 < (double)2.3, this.operators.LessObject((int)2, (double)2.3));
+        }        
+
+        [TestMethod]
+        public void LessLongShort()
+        {
+            Assert.AreEqual((long)1 < (short)1, this.operators.LessObject((long)1, (short)1));
+            Assert.AreEqual((long)1 < (short)2, this.operators.LessObject((long)1, (short)2));
+            Assert.AreEqual((long)2 < (short)1, this.operators.LessObject((long)2, (short)1));
+            Assert.AreEqual((long)2 < (short)2, this.operators.LessObject((long)2, (short)2));
+        }        
+
+        [TestMethod]
+        public void LessLongInteger()
+        {
+            Assert.AreEqual((long)1 < (int)1, this.operators.LessObject((long)1, (int)1));
+            Assert.AreEqual((long)1 < (int)2, this.operators.LessObject((long)1, (int)2));
+            Assert.AreEqual((long)2 < (int)1, this.operators.LessObject((long)2, (int)1));
+            Assert.AreEqual((long)2 < (int)2, this.operators.LessObject((long)2, (int)2));
+        }        
+
+        [TestMethod]
+        public void LessLongLong()
+        {
+            Assert.AreEqual((long)1 < (long)1, this.operators.LessObject((long)1, (long)1));
+            Assert.AreEqual((long)1 < (long)2, this.operators.LessObject((long)1, (long)2));
+            Assert.AreEqual((long)2 < (long)1, this.operators.LessObject((long)2, (long)1));
+            Assert.AreEqual((long)2 < (long)2, this.operators.LessObject((long)2, (long)2));
+        }        
+
+        [TestMethod]
+        public void LessLongFloat()
+        {
+            Assert.AreEqual((long)1 < (float)1.2, this.operators.LessObject((long)1, (float)1.2));
+            Assert.AreEqual((long)1 < (float)2.3, this.operators.LessObject((long)1, (float)2.3));
+            Assert.AreEqual((long)2 < (float)1.2, this.operators.LessObject((long)2, (float)1.2));
+            Assert.AreEqual((long)2 < (float)2.3, this.operators.LessObject((long)2, (float)2.3));
+        }        
+
+        [TestMethod]
+        public void LessLongDouble()
+        {
+            Assert.AreEqual((long)1 < (double)1.2, this.operators.LessObject((long)1, (double)1.2));
+            Assert.AreEqual((long)1 < (double)2.3, this.operators.LessObject((long)1, (double)2.3));
+            Assert.AreEqual((long)2 < (double)1.2, this.operators.LessObject((long)2, (double)1.2));
+            Assert.AreEqual((long)2 < (double)2.3, this.operators.LessObject((long)2, (double)2.3));
+        }        
+
+        [TestMethod]
+        public void LessFloatShort()
+        {
+            Assert.AreEqual((float)1.2 < (short)1, this.operators.LessObject((float)1.2, (short)1));
+            Assert.AreEqual((float)1.2 < (short)2, this.operators.LessObject((float)1.2, (short)2));
+            Assert.AreEqual((float)2.3 < (short)1, this.operators.LessObject((float)2.3, (short)1));
+            Assert.AreEqual((float)2.3 < (short)2, this.operators.LessObject((float)2.3, (short)2));
+        }        
+
+        [TestMethod]
+        public void LessFloatInteger()
+        {
+            Assert.AreEqual((float)1.2 < (int)1, this.operators.LessObject((float)1.2, (int)1));
+            Assert.AreEqual((float)1.2 < (int)2, this.operators.LessObject((float)1.2, (int)2));
+            Assert.AreEqual((float)2.3 < (int)1, this.operators.LessObject((float)2.3, (int)1));
+            Assert.AreEqual((float)2.3 < (int)2, this.operators.LessObject((float)2.3, (int)2));
+        }        
+
+        [TestMethod]
+        public void LessFloatLong()
+        {
+            Assert.AreEqual((float)1.2 < (long)1, this.operators.LessObject((float)1.2, (long)1));
+            Assert.AreEqual((float)1.2 < (long)2, this.operators.LessObject((float)1.2, (long)2));
+            Assert.AreEqual((float)2.3 < (long)1, this.operators.LessObject((float)2.3, (long)1));
+            Assert.AreEqual((float)2.3 < (long)2, this.operators.LessObject((float)2.3, (long)2));
+        }        
+
+        [TestMethod]
+        public void LessFloatFloat()
+        {
+            Assert.AreEqual((float)1.2 < (float)1.2, this.operators.LessObject((float)1.2, (float)1.2));
+            Assert.AreEqual((float)1.2 < (float)2.3, this.operators.LessObject((float)1.2, (float)2.3));
+            Assert.AreEqual((float)2.3 < (float)1.2, this.operators.LessObject((float)2.3, (float)1.2));
+            Assert.AreEqual((float)2.3 < (float)2.3, this.operators.LessObject((float)2.3, (float)2.3));
+        }        
+
+        [TestMethod]
+        public void LessFloatDouble()
+        {
+            Assert.AreEqual((float)1.2 < (double)1.2, this.operators.LessObject((float)1.2, (double)1.2));
+            Assert.AreEqual((float)1.2 < (double)2.3, this.operators.LessObject((float)1.2, (double)2.3));
+            Assert.AreEqual((float)2.3 < (double)1.2, this.operators.LessObject((float)2.3, (double)1.2));
+            Assert.AreEqual((float)2.3 < (double)2.3, this.operators.LessObject((float)2.3, (double)2.3));
+        }        
+
+        [TestMethod]
+        public void LessDoubleShort()
+        {
+            Assert.AreEqual((double)1.2 < (short)1, this.operators.LessObject((double)1.2, (short)1));
+            Assert.AreEqual((double)1.2 < (short)2, this.operators.LessObject((double)1.2, (short)2));
+            Assert.AreEqual((double)2.3 < (short)1, this.operators.LessObject((double)2.3, (short)1));
+            Assert.AreEqual((double)2.3 < (short)2, this.operators.LessObject((double)2.3, (short)2));
+        }        
+
+        [TestMethod]
+        public void LessDoubleInteger()
+        {
+            Assert.AreEqual((double)1.2 < (int)1, this.operators.LessObject((double)1.2, (int)1));
+            Assert.AreEqual((double)1.2 < (int)2, this.operators.LessObject((double)1.2, (int)2));
+            Assert.AreEqual((double)2.3 < (int)1, this.operators.LessObject((double)2.3, (int)1));
+            Assert.AreEqual((double)2.3 < (int)2, this.operators.LessObject((double)2.3, (int)2));
+        }        
+
+        [TestMethod]
+        public void LessDoubleLong()
+        {
+            Assert.AreEqual((double)1.2 < (long)1, this.operators.LessObject((double)1.2, (long)1));
+            Assert.AreEqual((double)1.2 < (long)2, this.operators.LessObject((double)1.2, (long)2));
+            Assert.AreEqual((double)2.3 < (long)1, this.operators.LessObject((double)2.3, (long)1));
+            Assert.AreEqual((double)2.3 < (long)2, this.operators.LessObject((double)2.3, (long)2));
+        }        
+
+        [TestMethod]
+        public void LessDoubleFloat()
+        {
+            Assert.AreEqual((double)1.2 < (float)1.2, this.operators.LessObject((double)1.2, (float)1.2));
+            Assert.AreEqual((double)1.2 < (float)2.3, this.operators.LessObject((double)1.2, (float)2.3));
+            Assert.AreEqual((double)2.3 < (float)1.2, this.operators.LessObject((double)2.3, (float)1.2));
+            Assert.AreEqual((double)2.3 < (float)2.3, this.operators.LessObject((double)2.3, (float)2.3));
+        }        
+
+        [TestMethod]
+        public void LessDoubleDouble()
+        {
+            Assert.AreEqual((double)1.2 < (double)1.2, this.operators.LessObject((double)1.2, (double)1.2));
+            Assert.AreEqual((double)1.2 < (double)2.3, this.operators.LessObject((double)1.2, (double)2.3));
+            Assert.AreEqual((double)2.3 < (double)1.2, this.operators.LessObject((double)2.3, (double)1.2));
+            Assert.AreEqual((double)2.3 < (double)2.3, this.operators.LessObject((double)2.3, (double)2.3));
+        }        
+
+        [TestMethod]
+        public void LessEqualShortShort()
+        {
+            Assert.AreEqual((short)1 <= (short)1, this.operators.LessEqualObject((short)1, (short)1));
+            Assert.AreEqual((short)1 <= (short)2, this.operators.LessEqualObject((short)1, (short)2));
+            Assert.AreEqual((short)2 <= (short)1, this.operators.LessEqualObject((short)2, (short)1));
+            Assert.AreEqual((short)2 <= (short)2, this.operators.LessEqualObject((short)2, (short)2));
+        }        
+
+        [TestMethod]
+        public void LessEqualShortInteger()
+        {
+            Assert.AreEqual((short)1 <= (int)1, this.operators.LessEqualObject((short)1, (int)1));
+            Assert.AreEqual((short)1 <= (int)2, this.operators.LessEqualObject((short)1, (int)2));
+            Assert.AreEqual((short)2 <= (int)1, this.operators.LessEqualObject((short)2, (int)1));
+            Assert.AreEqual((short)2 <= (int)2, this.operators.LessEqualObject((short)2, (int)2));
+        }        
+
+        [TestMethod]
+        public void LessEqualShortLong()
+        {
+            Assert.AreEqual((short)1 <= (long)1, this.operators.LessEqualObject((short)1, (long)1));
+            Assert.AreEqual((short)1 <= (long)2, this.operators.LessEqualObject((short)1, (long)2));
+            Assert.AreEqual((short)2 <= (long)1, this.operators.LessEqualObject((short)2, (long)1));
+            Assert.AreEqual((short)2 <= (long)2, this.operators.LessEqualObject((short)2, (long)2));
+        }        
+
+        [TestMethod]
+        public void LessEqualShortFloat()
+        {
+            Assert.AreEqual((short)1 <= (float)1.2, this.operators.LessEqualObject((short)1, (float)1.2));
+            Assert.AreEqual((short)1 <= (float)2.3, this.operators.LessEqualObject((short)1, (float)2.3));
+            Assert.AreEqual((short)2 <= (float)1.2, this.operators.LessEqualObject((short)2, (float)1.2));
+            Assert.AreEqual((short)2 <= (float)2.3, this.operators.LessEqualObject((short)2, (float)2.3));
+        }        
+
+        [TestMethod]
+        public void LessEqualShortDouble()
+        {
+            Assert.AreEqual((short)1 <= (double)1.2, this.operators.LessEqualObject((short)1, (double)1.2));
+            Assert.AreEqual((short)1 <= (double)2.3, this.operators.LessEqualObject((short)1, (double)2.3));
+            Assert.AreEqual((short)2 <= (double)1.2, this.operators.LessEqualObject((short)2, (double)1.2));
+            Assert.AreEqual((short)2 <= (double)2.3, this.operators.LessEqualObject((short)2, (double)2.3));
+        }        
+
+        [TestMethod]
+        public void LessEqualIntegerShort()
+        {
+            Assert.AreEqual((int)1 <= (short)1, this.operators.LessEqualObject((int)1, (short)1));
+            Assert.AreEqual((int)1 <= (short)2, this.operators.LessEqualObject((int)1, (short)2));
+            Assert.AreEqual((int)2 <= (short)1, this.operators.LessEqualObject((int)2, (short)1));
+            Assert.AreEqual((int)2 <= (short)2, this.operators.LessEqualObject((int)2, (short)2));
+        }        
+
+        [TestMethod]
+        public void LessEqualIntegerInteger()
+        {
+            Assert.AreEqual((int)1 <= (int)1, this.operators.LessEqualObject((int)1, (int)1));
+            Assert.AreEqual((int)1 <= (int)2, this.operators.LessEqualObject((int)1, (int)2));
+            Assert.AreEqual((int)2 <= (int)1, this.operators.LessEqualObject((int)2, (int)1));
+            Assert.AreEqual((int)2 <= (int)2, this.operators.LessEqualObject((int)2, (int)2));
+        }        
+
+        [TestMethod]
+        public void LessEqualIntegerLong()
+        {
+            Assert.AreEqual((int)1 <= (long)1, this.operators.LessEqualObject((int)1, (long)1));
+            Assert.AreEqual((int)1 <= (long)2, this.operators.LessEqualObject((int)1, (long)2));
+            Assert.AreEqual((int)2 <= (long)1, this.operators.LessEqualObject((int)2, (long)1));
+            Assert.AreEqual((int)2 <= (long)2, this.operators.LessEqualObject((int)2, (long)2));
+        }        
+
+        [TestMethod]
+        public void LessEqualIntegerFloat()
+        {
+            Assert.AreEqual((int)1 <= (float)1.2, this.operators.LessEqualObject((int)1, (float)1.2));
+            Assert.AreEqual((int)1 <= (float)2.3, this.operators.LessEqualObject((int)1, (float)2.3));
+            Assert.AreEqual((int)2 <= (float)1.2, this.operators.LessEqualObject((int)2, (float)1.2));
+            Assert.AreEqual((int)2 <= (float)2.3, this.operators.LessEqualObject((int)2, (float)2.3));
+        }        
+
+        [TestMethod]
+        public void LessEqualIntegerDouble()
+        {
+            Assert.AreEqual((int)1 <= (double)1.2, this.operators.LessEqualObject((int)1, (double)1.2));
+            Assert.AreEqual((int)1 <= (double)2.3, this.operators.LessEqualObject((int)1, (double)2.3));
+            Assert.AreEqual((int)2 <= (double)1.2, this.operators.LessEqualObject((int)2, (double)1.2));
+            Assert.AreEqual((int)2 <= (double)2.3, this.operators.LessEqualObject((int)2, (double)2.3));
+        }        
+
+        [TestMethod]
+        public void LessEqualLongShort()
+        {
+            Assert.AreEqual((long)1 <= (short)1, this.operators.LessEqualObject((long)1, (short)1));
+            Assert.AreEqual((long)1 <= (short)2, this.operators.LessEqualObject((long)1, (short)2));
+            Assert.AreEqual((long)2 <= (short)1, this.operators.LessEqualObject((long)2, (short)1));
+            Assert.AreEqual((long)2 <= (short)2, this.operators.LessEqualObject((long)2, (short)2));
+        }        
+
+        [TestMethod]
+        public void LessEqualLongInteger()
+        {
+            Assert.AreEqual((long)1 <= (int)1, this.operators.LessEqualObject((long)1, (int)1));
+            Assert.AreEqual((long)1 <= (int)2, this.operators.LessEqualObject((long)1, (int)2));
+            Assert.AreEqual((long)2 <= (int)1, this.operators.LessEqualObject((long)2, (int)1));
+            Assert.AreEqual((long)2 <= (int)2, this.operators.LessEqualObject((long)2, (int)2));
+        }        
+
+        [TestMethod]
+        public void LessEqualLongLong()
+        {
+            Assert.AreEqual((long)1 <= (long)1, this.operators.LessEqualObject((long)1, (long)1));
+            Assert.AreEqual((long)1 <= (long)2, this.operators.LessEqualObject((long)1, (long)2));
+            Assert.AreEqual((long)2 <= (long)1, this.operators.LessEqualObject((long)2, (long)1));
+            Assert.AreEqual((long)2 <= (long)2, this.operators.LessEqualObject((long)2, (long)2));
+        }        
+
+        [TestMethod]
+        public void LessEqualLongFloat()
+        {
+            Assert.AreEqual((long)1 <= (float)1.2, this.operators.LessEqualObject((long)1, (float)1.2));
+            Assert.AreEqual((long)1 <= (float)2.3, this.operators.LessEqualObject((long)1, (float)2.3));
+            Assert.AreEqual((long)2 <= (float)1.2, this.operators.LessEqualObject((long)2, (float)1.2));
+            Assert.AreEqual((long)2 <= (float)2.3, this.operators.LessEqualObject((long)2, (float)2.3));
+        }        
+
+        [TestMethod]
+        public void LessEqualLongDouble()
+        {
+            Assert.AreEqual((long)1 <= (double)1.2, this.operators.LessEqualObject((long)1, (double)1.2));
+            Assert.AreEqual((long)1 <= (double)2.3, this.operators.LessEqualObject((long)1, (double)2.3));
+            Assert.AreEqual((long)2 <= (double)1.2, this.operators.LessEqualObject((long)2, (double)1.2));
+            Assert.AreEqual((long)2 <= (double)2.3, this.operators.LessEqualObject((long)2, (double)2.3));
+        }        
+
+        [TestMethod]
+        public void LessEqualFloatShort()
+        {
+            Assert.AreEqual((float)1.2 <= (short)1, this.operators.LessEqualObject((float)1.2, (short)1));
+            Assert.AreEqual((float)1.2 <= (short)2, this.operators.LessEqualObject((float)1.2, (short)2));
+            Assert.AreEqual((float)2.3 <= (short)1, this.operators.LessEqualObject((float)2.3, (short)1));
+            Assert.AreEqual((float)2.3 <= (short)2, this.operators.LessEqualObject((float)2.3, (short)2));
+        }        
+
+        [TestMethod]
+        public void LessEqualFloatInteger()
+        {
+            Assert.AreEqual((float)1.2 <= (int)1, this.operators.LessEqualObject((float)1.2, (int)1));
+            Assert.AreEqual((float)1.2 <= (int)2, this.operators.LessEqualObject((float)1.2, (int)2));
+            Assert.AreEqual((float)2.3 <= (int)1, this.operators.LessEqualObject((float)2.3, (int)1));
+            Assert.AreEqual((float)2.3 <= (int)2, this.operators.LessEqualObject((float)2.3, (int)2));
+        }        
+
+        [TestMethod]
+        public void LessEqualFloatLong()
+        {
+            Assert.AreEqual((float)1.2 <= (long)1, this.operators.LessEqualObject((float)1.2, (long)1));
+            Assert.AreEqual((float)1.2 <= (long)2, this.operators.LessEqualObject((float)1.2, (long)2));
+            Assert.AreEqual((float)2.3 <= (long)1, this.operators.LessEqualObject((float)2.3, (long)1));
+            Assert.AreEqual((float)2.3 <= (long)2, this.operators.LessEqualObject((float)2.3, (long)2));
+        }        
+
+        [TestMethod]
+        public void LessEqualFloatFloat()
+        {
+            Assert.AreEqual((float)1.2 <= (float)1.2, this.operators.LessEqualObject((float)1.2, (float)1.2));
+            Assert.AreEqual((float)1.2 <= (float)2.3, this.operators.LessEqualObject((float)1.2, (float)2.3));
+            Assert.AreEqual((float)2.3 <= (float)1.2, this.operators.LessEqualObject((float)2.3, (float)1.2));
+            Assert.AreEqual((float)2.3 <= (float)2.3, this.operators.LessEqualObject((float)2.3, (float)2.3));
+        }        
+
+        [TestMethod]
+        public void LessEqualFloatDouble()
+        {
+            Assert.AreEqual((float)1.2 <= (double)1.2, this.operators.LessEqualObject((float)1.2, (double)1.2));
+            Assert.AreEqual((float)1.2 <= (double)2.3, this.operators.LessEqualObject((float)1.2, (double)2.3));
+            Assert.AreEqual((float)2.3 <= (double)1.2, this.operators.LessEqualObject((float)2.3, (double)1.2));
+            Assert.AreEqual((float)2.3 <= (double)2.3, this.operators.LessEqualObject((float)2.3, (double)2.3));
+        }        
+
+        [TestMethod]
+        public void LessEqualDoubleShort()
+        {
+            Assert.AreEqual((double)1.2 <= (short)1, this.operators.LessEqualObject((double)1.2, (short)1));
+            Assert.AreEqual((double)1.2 <= (short)2, this.operators.LessEqualObject((double)1.2, (short)2));
+            Assert.AreEqual((double)2.3 <= (short)1, this.operators.LessEqualObject((double)2.3, (short)1));
+            Assert.AreEqual((double)2.3 <= (short)2, this.operators.LessEqualObject((double)2.3, (short)2));
+        }        
+
+        [TestMethod]
+        public void LessEqualDoubleInteger()
+        {
+            Assert.AreEqual((double)1.2 <= (int)1, this.operators.LessEqualObject((double)1.2, (int)1));
+            Assert.AreEqual((double)1.2 <= (int)2, this.operators.LessEqualObject((double)1.2, (int)2));
+            Assert.AreEqual((double)2.3 <= (int)1, this.operators.LessEqualObject((double)2.3, (int)1));
+            Assert.AreEqual((double)2.3 <= (int)2, this.operators.LessEqualObject((double)2.3, (int)2));
+        }        
+
+        [TestMethod]
+        public void LessEqualDoubleLong()
+        {
+            Assert.AreEqual((double)1.2 <= (long)1, this.operators.LessEqualObject((double)1.2, (long)1));
+            Assert.AreEqual((double)1.2 <= (long)2, this.operators.LessEqualObject((double)1.2, (long)2));
+            Assert.AreEqual((double)2.3 <= (long)1, this.operators.LessEqualObject((double)2.3, (long)1));
+            Assert.AreEqual((double)2.3 <= (long)2, this.operators.LessEqualObject((double)2.3, (long)2));
+        }        
+
+        [TestMethod]
+        public void LessEqualDoubleFloat()
+        {
+            Assert.AreEqual((double)1.2 <= (float)1.2, this.operators.LessEqualObject((double)1.2, (float)1.2));
+            Assert.AreEqual((double)1.2 <= (float)2.3, this.operators.LessEqualObject((double)1.2, (float)2.3));
+            Assert.AreEqual((double)2.3 <= (float)1.2, this.operators.LessEqualObject((double)2.3, (float)1.2));
+            Assert.AreEqual((double)2.3 <= (float)2.3, this.operators.LessEqualObject((double)2.3, (float)2.3));
+        }        
+
+        [TestMethod]
+        public void LessEqualDoubleDouble()
+        {
+            Assert.AreEqual((double)1.2 <= (double)1.2, this.operators.LessEqualObject((double)1.2, (double)1.2));
+            Assert.AreEqual((double)1.2 <= (double)2.3, this.operators.LessEqualObject((double)1.2, (double)2.3));
+            Assert.AreEqual((double)2.3 <= (double)1.2, this.operators.LessEqualObject((double)2.3, (double)1.2));
+            Assert.AreEqual((double)2.3 <= (double)2.3, this.operators.LessEqualObject((double)2.3, (double)2.3));
+        }        
     }
 }

@@ -16,6 +16,30 @@
             <Name>Divide</Name>
             <Symbol>/</Symbol>            
         </BinaryOperator>
+        <BinaryOperator>
+            <Name>Equal</Name>
+            <Symbol>==</Symbol>            
+        </BinaryOperator>
+        <BinaryOperator>
+            <Name>NotEqual</Name>
+            <Symbol>!=</Symbol>            
+        </BinaryOperator>
+        <BinaryOperator>
+            <Name>Greater</Name>
+            <Symbol>&gt;</Symbol>            
+        </BinaryOperator>
+        <BinaryOperator>
+            <Name>GreaterEqual</Name>
+            <Symbol>&gt;=</Symbol>            
+        </BinaryOperator>
+        <BinaryOperator>
+            <Name>Less</Name>
+            <Symbol>&lt;</Symbol>            
+        </BinaryOperator>
+        <BinaryOperator>
+            <Name>LessEqual</Name>
+            <Symbol>&lt;=</Symbol>            
+        </BinaryOperator>
     </BinaryOperators>
     <NumericTypes>
         <NumericType>
