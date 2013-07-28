@@ -43,7 +43,7 @@ I created the package from ObOps.csproj directory:
 nuget spec
 rem then edit spec
 nuget pack ObOps.csproj -build -Prop Configuration=Release
-nuget push ObObjs-0.0.1-alpha.nupkg
+nuget push ObObjs-0.0.1.nupkg
 ```
 
 but the final version was using a .nupkg from bin\Release folder
@@ -52,7 +52,7 @@ but the final version was using a .nupkg from bin\Release folder
 nuget spec Obops.dll
 rem then edit .nuspec file and renamed it to Obops.nuspec
 nuget pack Obops.nuspec
-nuget push ObObjs-0.0.1-alpha.nupkg
+nuget push ObObjs-0.0.1.nupkg
 ```
 
 The used .nuspec file was copied to Src\Obops folder
