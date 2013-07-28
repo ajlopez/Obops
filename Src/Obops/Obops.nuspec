@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>Obops</id>
+    <version>0.0.1</version>
+    <authors>Angel "Java" Lopez</authors>
+    <owners>Angel "Java" Lopez</owners>
+    <licenseUrl>https://github.com/ajlopez/Obops/blob/master/LICENSE</licenseUrl>
+    <projectUrl>https://github.com/ajlopez/Obops</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Object operators</description>
+    <copyright>Copyright 2013</copyright>
+  </metadata>
+</package>

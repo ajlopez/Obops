@@ -30,3 +30,29 @@ object Subtract(object a, object b);
 - [Generics Algorithms](http://blogs.msdn.com/b/ericgu/archive/2003/11/14/52852.aspx)
 - [Using generics for calculations](http://www.codeproject.com/Articles/8531/Using-generics-for-calculations)
 
+## Nuget References
+
+- [Creating and Publishing a Package](http://docs.nuget.org/docs/creating-packages/creating-and-publishing-a-package)
+- [NuGet.exe Command-Line Utility](http://nuget.codeplex.com/downloads/get/697144)
+- [Nuget Releases](http://nuget.codeplex.com/releases)
+- [Nuget.org](http://www.nuget.org/)
+
+I created the package from ObOps.csproj directory:
+
+```
+nuget spec
+rem then edit spec
+nuget pack ObOps.csproj -build -Prop Configuration=Release
+nuget push ObObjs-0.0.1-alpha.nupkg
+```
+
+but the final version was using a .nupkg from bin\Release folder
+
+```
+nuget spec Obops.dll
+rem then edit .nuspec file and renamed it to Obops.nuspec
+nuget pack Obops.nuspec
+nuget push ObObjs-0.0.1-alpha.nupkg
+```
+
+The used .nuspec file was copied to Src\Obops folder
