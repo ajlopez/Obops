@@ -36,6 +36,9 @@ object Subtract(object a, object b);
 - [NuGet.exe Command-Line Utility](http://nuget.codeplex.com/downloads/get/697144)
 - [Nuget Releases](http://nuget.codeplex.com/releases)
 - [Nuget.org](http://www.nuget.org/)
+- [building my first package; why can't Nuget find my dll?](http://nuget.codeplex.com/discussions/330386)
+- [building my first package; why can't Nuget find my dll?](http://nuget.codeplex.com/workitem/2392)
+- [Versioning](http://docs.nuget.org/docs/reference/versioning)
 
 I created the package from ObOps.csproj directory:
 
